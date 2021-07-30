@@ -1,0 +1,347 @@
+[1627138195.138][INFO]: Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 18503
+[1627138195.138][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1627138195.817][INFO]: [0dc8e70508050335e2ef78bd4359d435] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\webinar\\webinar-folder\\final\\build\\downloads",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\webinar\\webinar-folder\\final\\build\\downloads",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1627138195.821][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\webinar\\webinar-folder\\final\\build\\downloads"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1627138195.821][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1627138195.823][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-service-autorun --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\yamax\AppData\Local\Temp\scoped_dir4896_1513420108" data:,
+[1627138196.335][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1627138196.338][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1627138196.346][INFO]: [0dc8e70508050335e2ef78bd4359d435] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "91.0.4472.164",
+      "chrome": {
+         "chromedriverVersion": "91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462})",
+         "userDataDir": "C:\\Users\\yamax\\AppData\\Local\\Temp\\scoped_dir4896_1513420108"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:58753"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:largeBlob": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "0dc8e70508050335e2ef78bd4359d435"
+}
+[1627138196.390][INFO]: [0dc8e70508050335e2ef78bd4359d435] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1627138196.390][INFO]: Waiting for pending navigations...
+[1627138196.392][INFO]: Done waiting for pending navigations. Status: ok
+[1627138196.501][INFO]: Waiting for pending navigations...
+[1627138196.502][INFO]: Done waiting for pending navigations. Status: ok
+[1627138196.502][INFO]: [0dc8e70508050335e2ef78bd4359d435] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 10,
+   "y": 10
+}
+[1627138196.516][INFO]: [0dc8e70508050335e2ef78bd4359d435] COMMAND Navigate {
+   "url": "https://www.agoda.com"
+}
+[1627138196.516][INFO]: Waiting for pending navigations...
+[1627138196.517][INFO]: Done waiting for pending navigations. Status: ok
+[1627138196.681][INFO]: Waiting for pending navigations...
+[1627138198.198][INFO]: Done waiting for pending navigations. Status: ok
+[1627138198.198][INFO]: [0dc8e70508050335e2ef78bd4359d435] RESPONSE Navigate
+[1627138198.312][INFO]: [0dc8e70508050335e2ef78bd4359d435] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".DayPicker\\-Day__label"
+}
+[1627138198.312][INFO]: Waiting for pending navigations...
+[1627138198.331][INFO]: Done waiting for pending navigations. Status: ok
+[1627138198.351][INFO]: Waiting for pending navigations...
+[1627138198.352][INFO]: Done waiting for pending navigations. Status: ok
+[1627138198.352][INFO]: [0dc8e70508050335e2ef78bd4359d435] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".DayPicker\-Day__label"}
+  (Session info: chrome=91.0.4472.164)
+[1627138198.586][INFO]: [0dc8e70508050335e2ef78bd4359d435] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".DayPicker\\-Day__label"
+}
+[1627138198.587][INFO]: Waiting for pending navigations...
+[1627138198.587][INFO]: Done waiting for pending navigations. Status: ok
+[1627138198.592][INFO]: Waiting for pending navigations...
+[1627138198.592][INFO]: Done waiting for pending navigations. Status: ok
+[1627138198.592][INFO]: [0dc8e70508050335e2ef78bd4359d435] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".DayPicker\-Day__label"}
+  (Session info: chrome=91.0.4472.164)
+[1627138198.825][INFO]: [0dc8e70508050335e2ef78bd4359d435] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".DayPicker\\-Day__label"
+}
+[1627138198.826][INFO]: Waiting for pending navigations...
+[1627138198.826][INFO]: Done waiting for pending navigations. Status: ok
+[1627138198.830][INFO]: Waiting for pending navigations...
+[1627138198.830][INFO]: Done waiting for pending navigations. Status: ok
+[1627138198.830][INFO]: [0dc8e70508050335e2ef78bd4359d435] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".DayPicker\-Day__label"}
+  (Session info: chrome=91.0.4472.164)
+[1627138199.060][INFO]: [0dc8e70508050335e2ef78bd4359d435] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".DayPicker\\-Day__label"
+}
+[1627138199.060][INFO]: Waiting for pending navigations...
+[1627138199.061][INFO]: Done waiting for pending navigations. Status: ok
+[1627138199.065][INFO]: Waiting for pending navigations...
+[1627138199.065][INFO]: Done waiting for pending navigations. Status: ok
+[1627138199.065][INFO]: [0dc8e70508050335e2ef78bd4359d435] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".DayPicker\-Day__label"}
+  (Session info: chrome=91.0.4472.164)
+[1627138199.295][INFO]: [0dc8e70508050335e2ef78bd4359d435] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".DayPicker\\-Day__label"
+}
+[1627138199.295][INFO]: Waiting for pending navigations...
+[1627138199.295][INFO]: Done waiting for pending navigations. Status: ok
+[1627138199.298][INFO]: Waiting for pending navigations...
+[1627138199.299][INFO]: Done waiting for pending navigations. Status: ok
+[1627138199.299][INFO]: [0dc8e70508050335e2ef78bd4359d435] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".DayPicker\-Day__label"}
+  (Session info: chrome=91.0.4472.164)
+[1627138199.532][INFO]: [0dc8e70508050335e2ef78bd4359d435] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".DayPicker\\-Day__label"
+}
+[1627138199.532][INFO]: Waiting for pending navigations...
+[1627138199.532][INFO]: Done waiting for pending navigations. Status: ok
+[1627138199.536][INFO]: Waiting for pending navigations...
+[1627138199.537][INFO]: Done waiting for pending navigations. Status: ok
+[1627138199.537][INFO]: [0dc8e70508050335e2ef78bd4359d435] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".DayPicker\-Day__label"}
+  (Session info: chrome=91.0.4472.164)
+[1627138199.769][INFO]: [0dc8e70508050335e2ef78bd4359d435] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".DayPicker\\-Day__label"
+}
+[1627138199.769][INFO]: Waiting for pending navigations...
+[1627138199.769][INFO]: Done waiting for pending navigations. Status: ok
+[1627138199.774][INFO]: Waiting for pending navigations...
+[1627138199.775][INFO]: Done waiting for pending navigations. Status: ok
+[1627138199.775][INFO]: [0dc8e70508050335e2ef78bd4359d435] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".DayPicker\-Day__label"}
+  (Session info: chrome=91.0.4472.164)
+[1627138200.006][INFO]: [0dc8e70508050335e2ef78bd4359d435] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".DayPicker\\-Day__label"
+}
+[1627138200.006][INFO]: Waiting for pending navigations...
+[1627138200.007][INFO]: Done waiting for pending navigations. Status: ok
+[1627138200.011][INFO]: Waiting for pending navigations...
+[1627138200.011][INFO]: Done waiting for pending navigations. Status: ok
+[1627138200.011][INFO]: [0dc8e70508050335e2ef78bd4359d435] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".DayPicker\-Day__label"}
+  (Session info: chrome=91.0.4472.164)
+[1627138200.229][INFO]: [0dc8e70508050335e2ef78bd4359d435] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".DayPicker\\-Day__label"
+}
+[1627138200.229][INFO]: Waiting for pending navigations...
+[1627138200.230][INFO]: Done waiting for pending navigations. Status: ok
+[1627138200.234][INFO]: Waiting for pending navigations...
+[1627138200.234][INFO]: Done waiting for pending navigations. Status: ok
+[1627138200.234][INFO]: [0dc8e70508050335e2ef78bd4359d435] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".DayPicker\-Day__label"}
+  (Session info: chrome=91.0.4472.164)
+[1627138200.466][INFO]: [0dc8e70508050335e2ef78bd4359d435] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".DayPicker\\-Day__label"
+}
+[1627138200.466][INFO]: Waiting for pending navigations...
+[1627138200.467][INFO]: Done waiting for pending navigations. Status: ok
+[1627138200.471][INFO]: Waiting for pending navigations...
+[1627138200.472][INFO]: Done waiting for pending navigations. Status: ok
+[1627138200.472][INFO]: [0dc8e70508050335e2ef78bd4359d435] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".DayPicker\-Day__label"}
+  (Session info: chrome=91.0.4472.164)
+[1627138200.702][INFO]: [0dc8e70508050335e2ef78bd4359d435] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".DayPicker\\-Day__label"
+}
+[1627138200.702][INFO]: Waiting for pending navigations...
+[1627138200.703][INFO]: Done waiting for pending navigations. Status: ok
+[1627138200.707][INFO]: Waiting for pending navigations...
+[1627138200.708][INFO]: Done waiting for pending navigations. Status: ok
+[1627138200.708][INFO]: [0dc8e70508050335e2ef78bd4359d435] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".DayPicker\-Day__label"}
+  (Session info: chrome=91.0.4472.164)
+[1627138200.931][INFO]: [0dc8e70508050335e2ef78bd4359d435] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".DayPicker\\-Day__label"
+}
+[1627138200.931][INFO]: Waiting for pending navigations...
+[1627138201.097][INFO]: Done waiting for pending navigations. Status: ok
+[1627138201.178][INFO]: Waiting for pending navigations...
+[1627138201.243][INFO]: Done waiting for pending navigations. Status: ok
+[1627138201.243][INFO]: [0dc8e70508050335e2ef78bd4359d435] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".DayPicker\-Day__label"}
+  (Session info: chrome=91.0.4472.164)
+[1627138201.464][INFO]: [0dc8e70508050335e2ef78bd4359d435] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".DayPicker\\-Day__label"
+}
+[1627138201.467][INFO]: Waiting for pending navigations...
+[1627138201.468][INFO]: Done waiting for pending navigations. Status: ok
+[1627138201.472][INFO]: Waiting for pending navigations...
+[1627138201.472][INFO]: Done waiting for pending navigations. Status: ok
+[1627138201.472][INFO]: [0dc8e70508050335e2ef78bd4359d435] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".DayPicker\-Day__label"}
+  (Session info: chrome=91.0.4472.164)
+[1627138201.703][INFO]: [0dc8e70508050335e2ef78bd4359d435] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".DayPicker\\-Day__label"
+}
+[1627138201.703][INFO]: Waiting for pending navigations...
+[1627138201.703][INFO]: Done waiting for pending navigations. Status: ok
+[1627138201.713][INFO]: Waiting for pending navigations...
+[1627138201.714][INFO]: Done waiting for pending navigations. Status: ok
+[1627138201.714][INFO]: [0dc8e70508050335e2ef78bd4359d435] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".DayPicker\-Day__label"}
+  (Session info: chrome=91.0.4472.164)
+[1627138201.933][INFO]: [0dc8e70508050335e2ef78bd4359d435] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".DayPicker\\-Day__label"
+}
+[1627138201.961][INFO]: Waiting for pending navigations...
+[1627138201.962][INFO]: Done waiting for pending navigations. Status: ok
+[1627138201.966][INFO]: Waiting for pending navigations...
+[1627138201.966][INFO]: Done waiting for pending navigations. Status: ok
+[1627138201.966][INFO]: [0dc8e70508050335e2ef78bd4359d435] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".DayPicker\-Day__label"}
+  (Session info: chrome=91.0.4472.164)
+[1627138202.184][INFO]: [0dc8e70508050335e2ef78bd4359d435] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".DayPicker\\-Day__label"
+}
+[1627138202.185][INFO]: Waiting for pending navigations...
+[1627138202.185][INFO]: Done waiting for pending navigations. Status: ok
+[1627138202.189][INFO]: Waiting for pending navigations...
+[1627138202.190][INFO]: Done waiting for pending navigations. Status: ok
+[1627138202.190][INFO]: [0dc8e70508050335e2ef78bd4359d435] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".DayPicker\-Day__label"}
+  (Session info: chrome=91.0.4472.164)
+[1627138202.419][INFO]: [0dc8e70508050335e2ef78bd4359d435] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1627138202.419][INFO]: Waiting for pending navigations...
+[1627138202.420][INFO]: Done waiting for pending navigations. Status: ok
+[1627138202.461][INFO]: Waiting for pending navigations...
+[1627138202.462][INFO]: Done waiting for pending navigations. Status: ok
+[1627138202.462][INFO]: [0dc8e70508050335e2ef78bd4359d435] RESPONSE ExecuteScript "\u003Chtml lang=\"ru\" kite-lang=\"ru\" class=\"chrome no-js\" dir=\"ltr\">\u003Chead>\n    \u003Cmeta charset=\"utf-8\">\n        \u003Cmeta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    \n        \u003Cmeta nam..."
+[1627138202.538][INFO]: [0dc8e70508050335e2ef78bd4359d435] COMMAND Screenshot {
+
+}
+[1627138202.538][INFO]: Waiting for pending navigations...
+[1627138202.540][INFO]: Done waiting for pending navigations. Status: ok
+[1627138202.834][INFO]: Waiting for pending navigations...
+[1627138202.835][INFO]: Done waiting for pending navigations. Status: ok
+[1627138202.835][INFO]: [0dc8e70508050335e2ef78bd4359d435] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABUYAAAKnCAYAAABK/pfIAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3WtwFWee5/nvkQRC1gUkhAQCBEjiYkuNuMqXgnLJIFeV69JU9fQQNXi81RszARPRuzG7sV0TxjsvjaM9Ebu9sx0xsDE9PXab9Wiju0zZZZfbAmtc0L5I3KSSb..."
+[1627138204.940][INFO]: [0dc8e70508050335e2ef78bd4359d435] COMMAND Quit {
+
+}
+[1627138204.983][INFO]: [0dc8e70508050335e2ef78bd4359d435] RESPONSE Quit

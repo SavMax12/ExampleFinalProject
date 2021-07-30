@@ -1,0 +1,466 @@
+[1627484937.145][INFO]: Starting ChromeDriver 92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}) on port 25921
+[1627484937.145][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1627484937.651][INFO]: [32991ffccf2baaa5150dc795c17b573e] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\webinar\\webinar-folder\\final\\build\\downloads",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\webinar\\webinar-folder\\final\\build\\downloads",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1627484937.656][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\webinar\\webinar-folder\\final\\build\\downloads"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1627484937.656][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1627484937.658][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-service-autorun --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\yamax\AppData\Local\Temp\scoped_dir10476_1294477448" data:,
+[1627484938.175][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1627484938.177][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1627484938.183][INFO]: [32991ffccf2baaa5150dc795c17b573e] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "92.0.4515.107",
+      "chrome": {
+         "chromedriverVersion": "92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306})",
+         "userDataDir": "C:\\Users\\yamax\\AppData\\Local\\Temp\\scoped_dir10476_1294477448"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:64931"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "32991ffccf2baaa5150dc795c17b573e"
+}
+[1627484938.198][INFO]: [32991ffccf2baaa5150dc795c17b573e] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1627484938.198][INFO]: Waiting for pending navigations...
+[1627484938.200][INFO]: Done waiting for pending navigations. Status: ok
+[1627484938.308][INFO]: Waiting for pending navigations...
+[1627484938.309][INFO]: Done waiting for pending navigations. Status: ok
+[1627484938.309][INFO]: [32991ffccf2baaa5150dc795c17b573e] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 10,
+   "y": 10
+}
+[1627484938.324][INFO]: [32991ffccf2baaa5150dc795c17b573e] COMMAND Navigate {
+   "url": "https://www.agoda.com"
+}
+[1627484938.324][INFO]: Waiting for pending navigations...
+[1627484938.325][INFO]: Done waiting for pending navigations. Status: ok
+[1627484938.494][INFO]: Waiting for pending navigations...
+[1627484940.348][INFO]: Done waiting for pending navigations. Status: ok
+[1627484940.348][INFO]: [32991ffccf2baaa5150dc795c17b573e] RESPONSE Navigate
+[1627484940.448][INFO]: [32991ffccf2baaa5150dc795c17b573e] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".card\\-box"
+}
+[1627484940.448][INFO]: Waiting for pending navigations...
+[1627484940.489][INFO]: Done waiting for pending navigations. Status: ok
+[1627484940.515][INFO]: Waiting for pending navigations...
+[1627484940.522][INFO]: Done waiting for pending navigations. Status: ok
+[1627484940.522][INFO]: [32991ffccf2baaa5150dc795c17b573e] RESPONSE FindElements [  ]
+[1627484940.546][INFO]: [32991ffccf2baaa5150dc795c17b573e] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".card\\-box"
+}
+[1627484940.546][INFO]: Waiting for pending navigations...
+[1627484940.552][INFO]: Done waiting for pending navigations. Status: ok
+[1627484940.556][INFO]: Waiting for pending navigations...
+[1627484940.557][INFO]: Done waiting for pending navigations. Status: ok
+[1627484940.557][INFO]: [32991ffccf2baaa5150dc795c17b573e] RESPONSE FindElements [  ]
+[1627484940.564][INFO]: [32991ffccf2baaa5150dc795c17b573e] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".card\\-box"
+}
+[1627484940.564][INFO]: Waiting for pending navigations...
+[1627484940.564][INFO]: Done waiting for pending navigations. Status: ok
+[1627484940.569][INFO]: Waiting for pending navigations...
+[1627484940.570][INFO]: Done waiting for pending navigations. Status: ok
+[1627484940.571][INFO]: [32991ffccf2baaa5150dc795c17b573e] RESPONSE FindElements [  ]
+[1627484940.795][INFO]: [32991ffccf2baaa5150dc795c17b573e] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".card\\-box"
+}
+[1627484940.795][INFO]: Waiting for pending navigations...
+[1627484940.795][INFO]: Done waiting for pending navigations. Status: ok
+[1627484940.799][INFO]: Waiting for pending navigations...
+[1627484940.800][INFO]: Done waiting for pending navigations. Status: ok
+[1627484940.800][INFO]: [32991ffccf2baaa5150dc795c17b573e] RESPONSE FindElements [  ]
+[1627484940.810][INFO]: [32991ffccf2baaa5150dc795c17b573e] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".card\\-box"
+}
+[1627484940.810][INFO]: Waiting for pending navigations...
+[1627484940.810][INFO]: Done waiting for pending navigations. Status: ok
+[1627484940.814][INFO]: Waiting for pending navigations...
+[1627484940.814][INFO]: Done waiting for pending navigations. Status: ok
+[1627484940.814][INFO]: [32991ffccf2baaa5150dc795c17b573e] RESPONSE FindElements [  ]
+[1627484941.045][INFO]: [32991ffccf2baaa5150dc795c17b573e] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".card\\-box"
+}
+[1627484941.045][INFO]: Waiting for pending navigations...
+[1627484941.046][INFO]: Done waiting for pending navigations. Status: ok
+[1627484941.049][INFO]: Waiting for pending navigations...
+[1627484941.050][INFO]: Done waiting for pending navigations. Status: ok
+[1627484941.050][INFO]: [32991ffccf2baaa5150dc795c17b573e] RESPONSE FindElements [  ]
+[1627484941.061][INFO]: [32991ffccf2baaa5150dc795c17b573e] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".card\\-box"
+}
+[1627484941.061][INFO]: Waiting for pending navigations...
+[1627484941.061][INFO]: Done waiting for pending navigations. Status: ok
+[1627484941.064][INFO]: Waiting for pending navigations...
+[1627484941.065][INFO]: Done waiting for pending navigations. Status: ok
+[1627484941.065][INFO]: [32991ffccf2baaa5150dc795c17b573e] RESPONSE FindElements [  ]
+[1627484941.294][INFO]: [32991ffccf2baaa5150dc795c17b573e] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".card\\-box"
+}
+[1627484941.294][INFO]: Waiting for pending navigations...
+[1627484941.294][INFO]: Done waiting for pending navigations. Status: ok
+[1627484941.298][INFO]: Waiting for pending navigations...
+[1627484941.298][INFO]: Done waiting for pending navigations. Status: ok
+[1627484941.298][INFO]: [32991ffccf2baaa5150dc795c17b573e] RESPONSE FindElements [  ]
+[1627484941.310][INFO]: [32991ffccf2baaa5150dc795c17b573e] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".card\\-box"
+}
+[1627484941.310][INFO]: Waiting for pending navigations...
+[1627484941.310][INFO]: Done waiting for pending navigations. Status: ok
+[1627484941.314][INFO]: Waiting for pending navigations...
+[1627484941.315][INFO]: Done waiting for pending navigations. Status: ok
+[1627484941.315][INFO]: [32991ffccf2baaa5150dc795c17b573e] RESPONSE FindElements [  ]
+[1627484941.531][INFO]: [32991ffccf2baaa5150dc795c17b573e] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".card\\-box"
+}
+[1627484941.531][INFO]: Waiting for pending navigations...
+[1627484941.532][INFO]: Done waiting for pending navigations. Status: ok
+[1627484941.535][INFO]: Waiting for pending navigations...
+[1627484941.536][INFO]: Done waiting for pending navigations. Status: ok
+[1627484941.536][INFO]: [32991ffccf2baaa5150dc795c17b573e] RESPONSE FindElements [  ]
+[1627484941.547][INFO]: [32991ffccf2baaa5150dc795c17b573e] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".card\\-box"
+}
+[1627484941.547][INFO]: Waiting for pending navigations...
+[1627484941.547][INFO]: Done waiting for pending navigations. Status: ok
+[1627484941.552][INFO]: Waiting for pending navigations...
+[1627484941.553][INFO]: Done waiting for pending navigations. Status: ok
+[1627484941.553][INFO]: [32991ffccf2baaa5150dc795c17b573e] RESPONSE FindElements [  ]
+[1627484941.780][INFO]: [32991ffccf2baaa5150dc795c17b573e] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".card\\-box"
+}
+[1627484941.780][INFO]: Waiting for pending navigations...
+[1627484941.780][INFO]: Done waiting for pending navigations. Status: ok
+[1627484941.784][INFO]: Waiting for pending navigations...
+[1627484941.785][INFO]: Done waiting for pending navigations. Status: ok
+[1627484941.785][INFO]: [32991ffccf2baaa5150dc795c17b573e] RESPONSE FindElements [  ]
+[1627484941.795][INFO]: [32991ffccf2baaa5150dc795c17b573e] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".card\\-box"
+}
+[1627484941.795][INFO]: Waiting for pending navigations...
+[1627484941.795][INFO]: Done waiting for pending navigations. Status: ok
+[1627484941.798][INFO]: Waiting for pending navigations...
+[1627484941.799][INFO]: Done waiting for pending navigations. Status: ok
+[1627484941.799][INFO]: [32991ffccf2baaa5150dc795c17b573e] RESPONSE FindElements [  ]
+[1627484942.030][INFO]: [32991ffccf2baaa5150dc795c17b573e] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".card\\-box"
+}
+[1627484942.030][INFO]: Waiting for pending navigations...
+[1627484942.030][INFO]: Done waiting for pending navigations. Status: ok
+[1627484942.034][INFO]: Waiting for pending navigations...
+[1627484942.035][INFO]: Done waiting for pending navigations. Status: ok
+[1627484942.035][INFO]: [32991ffccf2baaa5150dc795c17b573e] RESPONSE FindElements [  ]
+[1627484942.045][INFO]: [32991ffccf2baaa5150dc795c17b573e] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".card\\-box"
+}
+[1627484942.045][INFO]: Waiting for pending navigations...
+[1627484942.045][INFO]: Done waiting for pending navigations. Status: ok
+[1627484942.049][INFO]: Waiting for pending navigations...
+[1627484942.049][INFO]: Done waiting for pending navigations. Status: ok
+[1627484942.049][INFO]: [32991ffccf2baaa5150dc795c17b573e] RESPONSE FindElements [  ]
+[1627484942.275][INFO]: [32991ffccf2baaa5150dc795c17b573e] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".card\\-box"
+}
+[1627484942.275][INFO]: Waiting for pending navigations...
+[1627484942.276][INFO]: Done waiting for pending navigations. Status: ok
+[1627484942.279][INFO]: Waiting for pending navigations...
+[1627484942.280][INFO]: Done waiting for pending navigations. Status: ok
+[1627484942.280][INFO]: [32991ffccf2baaa5150dc795c17b573e] RESPONSE FindElements [  ]
+[1627484942.291][INFO]: [32991ffccf2baaa5150dc795c17b573e] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".card\\-box"
+}
+[1627484942.291][INFO]: Waiting for pending navigations...
+[1627484942.291][INFO]: Done waiting for pending navigations. Status: ok
+[1627484942.295][INFO]: Waiting for pending navigations...
+[1627484942.295][INFO]: Done waiting for pending navigations. Status: ok
+[1627484942.295][INFO]: [32991ffccf2baaa5150dc795c17b573e] RESPONSE FindElements [  ]
+[1627484942.524][INFO]: [32991ffccf2baaa5150dc795c17b573e] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".card\\-box"
+}
+[1627484942.524][INFO]: Waiting for pending navigations...
+[1627484942.525][INFO]: Done waiting for pending navigations. Status: ok
+[1627484942.528][INFO]: Waiting for pending navigations...
+[1627484942.529][INFO]: Done waiting for pending navigations. Status: ok
+[1627484942.529][INFO]: [32991ffccf2baaa5150dc795c17b573e] RESPONSE FindElements [  ]
+[1627484942.539][INFO]: [32991ffccf2baaa5150dc795c17b573e] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".card\\-box"
+}
+[1627484942.539][INFO]: Waiting for pending navigations...
+[1627484942.539][INFO]: Done waiting for pending navigations. Status: ok
+[1627484942.543][INFO]: Waiting for pending navigations...
+[1627484942.543][INFO]: Done waiting for pending navigations. Status: ok
+[1627484942.543][INFO]: [32991ffccf2baaa5150dc795c17b573e] RESPONSE FindElements [  ]
+[1627484942.771][INFO]: [32991ffccf2baaa5150dc795c17b573e] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".card\\-box"
+}
+[1627484942.771][INFO]: Waiting for pending navigations...
+[1627484942.818][INFO]: Done waiting for pending navigations. Status: ok
+[1627484942.821][INFO]: Waiting for pending navigations...
+[1627484942.821][INFO]: Done waiting for pending navigations. Status: ok
+[1627484942.821][INFO]: [32991ffccf2baaa5150dc795c17b573e] RESPONSE FindElements [  ]
+[1627484942.833][INFO]: [32991ffccf2baaa5150dc795c17b573e] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".card\\-box"
+}
+[1627484942.833][INFO]: Waiting for pending navigations...
+[1627484942.833][INFO]: Done waiting for pending navigations. Status: ok
+[1627484942.836][INFO]: Waiting for pending navigations...
+[1627484942.837][INFO]: Done waiting for pending navigations. Status: ok
+[1627484942.837][INFO]: [32991ffccf2baaa5150dc795c17b573e] RESPONSE FindElements [  ]
+[1627484943.065][INFO]: [32991ffccf2baaa5150dc795c17b573e] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".card\\-box"
+}
+[1627484943.065][INFO]: Waiting for pending navigations...
+[1627484943.097][INFO]: Done waiting for pending navigations. Status: ok
+[1627484943.129][INFO]: Waiting for pending navigations...
+[1627484943.205][INFO]: Done waiting for pending navigations. Status: ok
+[1627484943.205][INFO]: [32991ffccf2baaa5150dc795c17b573e] RESPONSE FindElements [  ]
+[1627484943.215][INFO]: [32991ffccf2baaa5150dc795c17b573e] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".card\\-box"
+}
+[1627484943.215][INFO]: Waiting for pending navigations...
+[1627484943.261][INFO]: Done waiting for pending navigations. Status: ok
+[1627484943.305][INFO]: Waiting for pending navigations...
+[1627484943.333][INFO]: Done waiting for pending navigations. Status: ok
+[1627484943.333][INFO]: [32991ffccf2baaa5150dc795c17b573e] RESPONSE FindElements [  ]
+[1627484943.560][INFO]: [32991ffccf2baaa5150dc795c17b573e] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".card\\-box"
+}
+[1627484943.562][INFO]: Waiting for pending navigations...
+[1627484943.563][INFO]: Done waiting for pending navigations. Status: ok
+[1627484943.567][INFO]: Waiting for pending navigations...
+[1627484943.584][INFO]: Done waiting for pending navigations. Status: ok
+[1627484943.584][INFO]: [32991ffccf2baaa5150dc795c17b573e] RESPONSE FindElements [  ]
+[1627484943.590][INFO]: [32991ffccf2baaa5150dc795c17b573e] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".card\\-box"
+}
+[1627484943.590][INFO]: Waiting for pending navigations...
+[1627484943.590][INFO]: Done waiting for pending navigations. Status: ok
+[1627484943.593][INFO]: Waiting for pending navigations...
+[1627484943.594][INFO]: Done waiting for pending navigations. Status: ok
+[1627484943.594][INFO]: [32991ffccf2baaa5150dc795c17b573e] RESPONSE FindElements [  ]
+[1627484943.822][INFO]: [32991ffccf2baaa5150dc795c17b573e] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".card\\-box"
+}
+[1627484943.828][INFO]: Waiting for pending navigations...
+[1627484943.830][INFO]: Done waiting for pending navigations. Status: ok
+[1627484943.834][INFO]: Waiting for pending navigations...
+[1627484943.835][INFO]: Done waiting for pending navigations. Status: ok
+[1627484943.835][INFO]: [32991ffccf2baaa5150dc795c17b573e] RESPONSE FindElements [  ]
+[1627484943.851][INFO]: [32991ffccf2baaa5150dc795c17b573e] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".card\\-box"
+}
+[1627484943.851][INFO]: Waiting for pending navigations...
+[1627484943.852][INFO]: Done waiting for pending navigations. Status: ok
+[1627484943.855][INFO]: Waiting for pending navigations...
+[1627484943.855][INFO]: Done waiting for pending navigations. Status: ok
+[1627484943.855][INFO]: [32991ffccf2baaa5150dc795c17b573e] RESPONSE FindElements [  ]
+[1627484944.082][INFO]: [32991ffccf2baaa5150dc795c17b573e] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".card\\-box"
+}
+[1627484944.371][INFO]: Waiting for pending navigations...
+[1627484944.376][INFO]: Done waiting for pending navigations. Status: ok
+[1627484944.380][INFO]: Waiting for pending navigations...
+[1627484944.381][INFO]: Done waiting for pending navigations. Status: ok
+[1627484944.381][INFO]: [32991ffccf2baaa5150dc795c17b573e] RESPONSE FindElements [  ]
+[1627484944.398][INFO]: [32991ffccf2baaa5150dc795c17b573e] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".card\\-box"
+}
+[1627484944.398][INFO]: Waiting for pending navigations...
+[1627484944.399][INFO]: Done waiting for pending navigations. Status: ok
+[1627484944.402][INFO]: Waiting for pending navigations...
+[1627484944.402][INFO]: Done waiting for pending navigations. Status: ok
+[1627484944.402][INFO]: [32991ffccf2baaa5150dc795c17b573e] RESPONSE FindElements [  ]
+[1627484944.630][INFO]: [32991ffccf2baaa5150dc795c17b573e] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1627484944.630][INFO]: Waiting for pending navigations...
+[1627484944.631][INFO]: Done waiting for pending navigations. Status: ok
+[1627484944.672][INFO]: Waiting for pending navigations...
+[1627484944.672][INFO]: Done waiting for pending navigations. Status: ok
+[1627484944.672][INFO]: [32991ffccf2baaa5150dc795c17b573e] RESPONSE ExecuteScript "\u003Chtml lang=\"ru\" kite-lang=\"ru\" class=\"chrome no-js\" dir=\"ltr\">\u003Chead>\n    \u003Cmeta charset=\"utf-8\">\n        \u003Cmeta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    \n        \u003Cmeta nam..."
+[1627484944.759][INFO]: [32991ffccf2baaa5150dc795c17b573e] COMMAND Screenshot {
+
+}
+[1627484944.759][INFO]: Waiting for pending navigations...
+[1627484944.760][INFO]: Done waiting for pending navigations. Status: ok
+[1627484944.968][INFO]: Waiting for pending navigations...
+[1627484944.970][INFO]: Done waiting for pending navigations. Status: ok
+[1627484944.970][INFO]: [32991ffccf2baaa5150dc795c17b573e] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABUYAAAKnCAYAAABK/pfIAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3f1zFFe+5/l3lZ5LEqKQ0CMSBRISuJEbga7tNu7bjI2nJyZg4s7u7EyHY/cnHPfv2JiN/icmIPanJTw7e2cnFuLuvRfs0Y4N3fYAog0GJJAtHvSIpNJjlSSkq..."
+[1627484945.250][INFO]: [32991ffccf2baaa5150dc795c17b573e] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1627484945.250][INFO]: Waiting for pending navigations...
+[1627484945.250][INFO]: Done waiting for pending navigations. Status: ok
+[1627484945.287][INFO]: Waiting for pending navigations...
+[1627484945.288][INFO]: Done waiting for pending navigations. Status: ok
+[1627484945.288][INFO]: [32991ffccf2baaa5150dc795c17b573e] RESPONSE ExecuteScript "\u003Chtml lang=\"ru\" kite-lang=\"ru\" class=\"chrome no-js\" dir=\"ltr\">\u003Chead>\n    \u003Cmeta charset=\"utf-8\">\n        \u003Cmeta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    \n        \u003Cmeta nam..."
+[1627484945.345][INFO]: [32991ffccf2baaa5150dc795c17b573e] COMMAND Screenshot {
+
+}
+[1627484945.345][INFO]: Waiting for pending navigations...
+[1627484945.345][INFO]: Done waiting for pending navigations. Status: ok
+[1627484945.568][INFO]: Waiting for pending navigations...
+[1627484945.569][INFO]: Done waiting for pending navigations. Status: ok
+[1627484945.569][INFO]: [32991ffccf2baaa5150dc795c17b573e] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABUYAAAKnCAYAAABK/pfIAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3f1zFFe+5/l3lZ5LEqKQ0CMSBRISuJEbga7tNu7bjI2nJyZg4s7u7EyHY/cnHPfv2JiN/icmIPanJTw7e2cnFuLuvRfs0Y4N3fYAog0GJJAtHvSIpNJjlSSkq..."
+[1627484954.337][INFO]: [32991ffccf2baaa5150dc795c17b573e] COMMAND Quit {
+
+}
+[1627484954.386][INFO]: [32991ffccf2baaa5150dc795c17b573e] RESPONSE Quit

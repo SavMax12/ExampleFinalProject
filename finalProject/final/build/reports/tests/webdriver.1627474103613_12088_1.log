@@ -1,0 +1,338 @@
+[1627474103.751][INFO]: Starting ChromeDriver 92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}) on port 38454
+[1627474103.752][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1627474104.452][INFO]: [cb6d696e85bec36a4eafefc5547f14e4] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\webinar\\webinar-folder\\final\\build\\downloads",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\webinar\\webinar-folder\\final\\build\\downloads",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1627474104.456][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\webinar\\webinar-folder\\final\\build\\downloads"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1627474104.456][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1627474104.458][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-service-autorun --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\yamax\AppData\Local\Temp\scoped_dir12244_11878799" data:,
+[1627474104.972][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1627474104.974][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1627474104.979][INFO]: [cb6d696e85bec36a4eafefc5547f14e4] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "92.0.4515.107",
+      "chrome": {
+         "chromedriverVersion": "92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306})",
+         "userDataDir": "C:\\Users\\yamax\\AppData\\Local\\Temp\\scoped_dir12244_11878799"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:57124"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "cb6d696e85bec36a4eafefc5547f14e4"
+}
+[1627474105.028][INFO]: [cb6d696e85bec36a4eafefc5547f14e4] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1627474105.028][INFO]: Waiting for pending navigations...
+[1627474105.030][INFO]: Done waiting for pending navigations. Status: ok
+[1627474105.152][INFO]: Waiting for pending navigations...
+[1627474105.153][INFO]: Done waiting for pending navigations. Status: ok
+[1627474105.153][INFO]: [cb6d696e85bec36a4eafefc5547f14e4] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 10,
+   "y": 10
+}
+[1627474105.168][INFO]: [cb6d696e85bec36a4eafefc5547f14e4] COMMAND Navigate {
+   "url": "https://www.agoda.com"
+}
+[1627474105.168][INFO]: Waiting for pending navigations...
+[1627474105.169][INFO]: Done waiting for pending navigations. Status: ok
+[1627474105.383][INFO]: Waiting for pending navigations...
+[1627474106.495][INFO]: Done waiting for pending navigations. Status: ok
+[1627474106.495][INFO]: [cb6d696e85bec36a4eafefc5547f14e4] RESPONSE Navigate
+[1627474106.616][INFO]: [cb6d696e85bec36a4eafefc5547f14e4] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".sc\\-bdfBwQ\\ gNRfUM\\ TabContent__Search\\-\\-button"
+}
+[1627474106.616][INFO]: Waiting for pending navigations...
+[1627474106.696][INFO]: Done waiting for pending navigations. Status: ok
+[1627474106.709][INFO]: Waiting for pending navigations...
+[1627474106.709][INFO]: Done waiting for pending navigations. Status: ok
+[1627474106.709][INFO]: [cb6d696e85bec36a4eafefc5547f14e4] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".sc\-bdfBwQ\ gNRfUM\ TabContent__Search\-\-button"}
+  (Session info: chrome=92.0.4515.107)
+[1627474106.941][INFO]: [cb6d696e85bec36a4eafefc5547f14e4] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".sc\\-bdfBwQ\\ gNRfUM\\ TabContent__Search\\-\\-button"
+}
+[1627474106.941][INFO]: Waiting for pending navigations...
+[1627474106.942][INFO]: Done waiting for pending navigations. Status: ok
+[1627474106.946][INFO]: Waiting for pending navigations...
+[1627474106.946][INFO]: Done waiting for pending navigations. Status: ok
+[1627474106.947][INFO]: [cb6d696e85bec36a4eafefc5547f14e4] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".sc\-bdfBwQ\ gNRfUM\ TabContent__Search\-\-button"}
+  (Session info: chrome=92.0.4515.107)
+[1627474107.175][INFO]: [cb6d696e85bec36a4eafefc5547f14e4] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".sc\\-bdfBwQ\\ gNRfUM\\ TabContent__Search\\-\\-button"
+}
+[1627474107.175][INFO]: Waiting for pending navigations...
+[1627474107.175][INFO]: Done waiting for pending navigations. Status: ok
+[1627474107.179][INFO]: Waiting for pending navigations...
+[1627474107.180][INFO]: Done waiting for pending navigations. Status: ok
+[1627474107.180][INFO]: [cb6d696e85bec36a4eafefc5547f14e4] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".sc\-bdfBwQ\ gNRfUM\ TabContent__Search\-\-button"}
+  (Session info: chrome=92.0.4515.107)
+[1627474107.407][INFO]: [cb6d696e85bec36a4eafefc5547f14e4] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".sc\\-bdfBwQ\\ gNRfUM\\ TabContent__Search\\-\\-button"
+}
+[1627474107.407][INFO]: Waiting for pending navigations...
+[1627474107.407][INFO]: Done waiting for pending navigations. Status: ok
+[1627474107.411][INFO]: Waiting for pending navigations...
+[1627474107.411][INFO]: Done waiting for pending navigations. Status: ok
+[1627474107.411][INFO]: [cb6d696e85bec36a4eafefc5547f14e4] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".sc\-bdfBwQ\ gNRfUM\ TabContent__Search\-\-button"}
+  (Session info: chrome=92.0.4515.107)
+[1627474107.640][INFO]: [cb6d696e85bec36a4eafefc5547f14e4] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".sc\\-bdfBwQ\\ gNRfUM\\ TabContent__Search\\-\\-button"
+}
+[1627474107.640][INFO]: Waiting for pending navigations...
+[1627474107.653][INFO]: Done waiting for pending navigations. Status: ok
+[1627474107.660][INFO]: Waiting for pending navigations...
+[1627474107.660][INFO]: Done waiting for pending navigations. Status: ok
+[1627474107.660][INFO]: [cb6d696e85bec36a4eafefc5547f14e4] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".sc\-bdfBwQ\ gNRfUM\ TabContent__Search\-\-button"}
+  (Session info: chrome=92.0.4515.107)
+[1627474107.894][INFO]: [cb6d696e85bec36a4eafefc5547f14e4] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".sc\\-bdfBwQ\\ gNRfUM\\ TabContent__Search\\-\\-button"
+}
+[1627474107.894][INFO]: Waiting for pending navigations...
+[1627474107.894][INFO]: Done waiting for pending navigations. Status: ok
+[1627474107.899][INFO]: Waiting for pending navigations...
+[1627474107.899][INFO]: Done waiting for pending navigations. Status: ok
+[1627474107.899][INFO]: [cb6d696e85bec36a4eafefc5547f14e4] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".sc\-bdfBwQ\ gNRfUM\ TabContent__Search\-\-button"}
+  (Session info: chrome=92.0.4515.107)
+[1627474108.126][INFO]: [cb6d696e85bec36a4eafefc5547f14e4] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".sc\\-bdfBwQ\\ gNRfUM\\ TabContent__Search\\-\\-button"
+}
+[1627474108.126][INFO]: Waiting for pending navigations...
+[1627474108.126][INFO]: Done waiting for pending navigations. Status: ok
+[1627474108.130][INFO]: Waiting for pending navigations...
+[1627474108.131][INFO]: Done waiting for pending navigations. Status: ok
+[1627474108.131][INFO]: [cb6d696e85bec36a4eafefc5547f14e4] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".sc\-bdfBwQ\ gNRfUM\ TabContent__Search\-\-button"}
+  (Session info: chrome=92.0.4515.107)
+[1627474108.357][INFO]: [cb6d696e85bec36a4eafefc5547f14e4] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".sc\\-bdfBwQ\\ gNRfUM\\ TabContent__Search\\-\\-button"
+}
+[1627474108.357][INFO]: Waiting for pending navigations...
+[1627474108.357][INFO]: Done waiting for pending navigations. Status: ok
+[1627474108.361][INFO]: Waiting for pending navigations...
+[1627474108.361][INFO]: Done waiting for pending navigations. Status: ok
+[1627474108.361][INFO]: [cb6d696e85bec36a4eafefc5547f14e4] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".sc\-bdfBwQ\ gNRfUM\ TabContent__Search\-\-button"}
+  (Session info: chrome=92.0.4515.107)
+[1627474108.592][INFO]: [cb6d696e85bec36a4eafefc5547f14e4] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".sc\\-bdfBwQ\\ gNRfUM\\ TabContent__Search\\-\\-button"
+}
+[1627474108.592][INFO]: Waiting for pending navigations...
+[1627474108.592][INFO]: Done waiting for pending navigations. Status: ok
+[1627474108.596][INFO]: Waiting for pending navigations...
+[1627474108.597][INFO]: Done waiting for pending navigations. Status: ok
+[1627474108.597][INFO]: [cb6d696e85bec36a4eafefc5547f14e4] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".sc\-bdfBwQ\ gNRfUM\ TabContent__Search\-\-button"}
+  (Session info: chrome=92.0.4515.107)
+[1627474108.825][INFO]: [cb6d696e85bec36a4eafefc5547f14e4] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".sc\\-bdfBwQ\\ gNRfUM\\ TabContent__Search\\-\\-button"
+}
+[1627474108.825][INFO]: Waiting for pending navigations...
+[1627474108.825][INFO]: Done waiting for pending navigations. Status: ok
+[1627474108.829][INFO]: Waiting for pending navigations...
+[1627474108.830][INFO]: Done waiting for pending navigations. Status: ok
+[1627474108.830][INFO]: [cb6d696e85bec36a4eafefc5547f14e4] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".sc\-bdfBwQ\ gNRfUM\ TabContent__Search\-\-button"}
+  (Session info: chrome=92.0.4515.107)
+[1627474109.060][INFO]: [cb6d696e85bec36a4eafefc5547f14e4] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".sc\\-bdfBwQ\\ gNRfUM\\ TabContent__Search\\-\\-button"
+}
+[1627474109.060][INFO]: Waiting for pending navigations...
+[1627474109.076][INFO]: Done waiting for pending navigations. Status: ok
+[1627474109.080][INFO]: Waiting for pending navigations...
+[1627474109.081][INFO]: Done waiting for pending navigations. Status: ok
+[1627474109.081][INFO]: [cb6d696e85bec36a4eafefc5547f14e4] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".sc\-bdfBwQ\ gNRfUM\ TabContent__Search\-\-button"}
+  (Session info: chrome=92.0.4515.107)
+[1627474109.322][INFO]: [cb6d696e85bec36a4eafefc5547f14e4] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".sc\\-bdfBwQ\\ gNRfUM\\ TabContent__Search\\-\\-button"
+}
+[1627474109.322][INFO]: Waiting for pending navigations...
+[1627474109.563][INFO]: Done waiting for pending navigations. Status: ok
+[1627474109.586][INFO]: Waiting for pending navigations...
+[1627474109.586][INFO]: Done waiting for pending navigations. Status: ok
+[1627474109.587][INFO]: [cb6d696e85bec36a4eafefc5547f14e4] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".sc\-bdfBwQ\ gNRfUM\ TabContent__Search\-\-button"}
+  (Session info: chrome=92.0.4515.107)
+[1627474109.815][INFO]: [cb6d696e85bec36a4eafefc5547f14e4] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".sc\\-bdfBwQ\\ gNRfUM\\ TabContent__Search\\-\\-button"
+}
+[1627474109.815][INFO]: Waiting for pending navigations...
+[1627474109.832][INFO]: Done waiting for pending navigations. Status: ok
+[1627474109.952][INFO]: Waiting for pending navigations...
+[1627474110.029][INFO]: Done waiting for pending navigations. Status: ok
+[1627474110.029][INFO]: [cb6d696e85bec36a4eafefc5547f14e4] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".sc\-bdfBwQ\ gNRfUM\ TabContent__Search\-\-button"}
+  (Session info: chrome=92.0.4515.107)
+[1627474110.251][INFO]: [cb6d696e85bec36a4eafefc5547f14e4] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".sc\\-bdfBwQ\\ gNRfUM\\ TabContent__Search\\-\\-button"
+}
+[1627474110.262][INFO]: Waiting for pending navigations...
+[1627474110.267][INFO]: Done waiting for pending navigations. Status: ok
+[1627474110.294][INFO]: Waiting for pending navigations...
+[1627474110.295][INFO]: Done waiting for pending navigations. Status: ok
+[1627474110.295][INFO]: [cb6d696e85bec36a4eafefc5547f14e4] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".sc\-bdfBwQ\ gNRfUM\ TabContent__Search\-\-button"}
+  (Session info: chrome=92.0.4515.107)
+[1627474110.521][INFO]: [cb6d696e85bec36a4eafefc5547f14e4] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".sc\\-bdfBwQ\\ gNRfUM\\ TabContent__Search\\-\\-button"
+}
+[1627474110.610][INFO]: Waiting for pending navigations...
+[1627474110.612][INFO]: Done waiting for pending navigations. Status: ok
+[1627474110.616][INFO]: Waiting for pending navigations...
+[1627474110.616][INFO]: Done waiting for pending navigations. Status: ok
+[1627474110.616][INFO]: [cb6d696e85bec36a4eafefc5547f14e4] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".sc\-bdfBwQ\ gNRfUM\ TabContent__Search\-\-button"}
+  (Session info: chrome=92.0.4515.107)
+[1627474110.836][INFO]: [cb6d696e85bec36a4eafefc5547f14e4] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1627474110.836][INFO]: Waiting for pending navigations...
+[1627474110.839][INFO]: Done waiting for pending navigations. Status: ok
+[1627474110.901][INFO]: Waiting for pending navigations...
+[1627474111.026][INFO]: Done waiting for pending navigations. Status: ok
+[1627474111.026][INFO]: [cb6d696e85bec36a4eafefc5547f14e4] RESPONSE ExecuteScript "\u003Chtml lang=\"ru\" kite-lang=\"ru\" class=\"chrome no-js\" dir=\"ltr\">\u003Chead>\n    \u003Cmeta charset=\"utf-8\">\n        \u003Cmeta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    \n        \u003Cmeta nam..."
+[1627474111.098][INFO]: [cb6d696e85bec36a4eafefc5547f14e4] COMMAND Screenshot {
+
+}
+[1627474111.098][INFO]: Waiting for pending navigations...
+[1627474111.099][INFO]: Done waiting for pending navigations. Status: ok
+[1627474111.345][INFO]: Waiting for pending navigations...
+[1627474111.346][INFO]: Done waiting for pending navigations. Status: ok
+[1627474111.346][INFO]: [cb6d696e85bec36a4eafefc5547f14e4] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABUYAAAKnCAYAAABK/pfIAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3f1zFFe+5/l3lYQeSgipJCH0AKJkgQRu1EagtruNey9j4+mJGZi4Mzs7t8Ox+xOO+4fMRv8TEyb2p3V4dvbO3liIu3OvsVd7bWjbDYg2NCBZsoRAj+gBUaiqJ..."
+[1627474114.493][INFO]: [cb6d696e85bec36a4eafefc5547f14e4] COMMAND Quit {
+
+}
+[1627474114.556][INFO]: [cb6d696e85bec36a4eafefc5547f14e4] RESPONSE Quit

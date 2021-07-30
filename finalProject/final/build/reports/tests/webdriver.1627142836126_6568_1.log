@@ -1,0 +1,327 @@
+[1627142836.277][INFO]: Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 31215
+[1627142836.277][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1627142837.029][INFO]: [970492cd98e87619dedd3e4fd19df4a4] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\webinar\\webinar-folder\\final\\build\\downloads",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\webinar\\webinar-folder\\final\\build\\downloads",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1627142837.033][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\webinar\\webinar-folder\\final\\build\\downloads"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1627142837.034][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1627142837.035][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-service-autorun --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\yamax\AppData\Local\Temp\scoped_dir13880_550440496" data:,
+[1627142837.551][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1627142837.554][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1627142837.558][INFO]: [970492cd98e87619dedd3e4fd19df4a4] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "91.0.4472.164",
+      "chrome": {
+         "chromedriverVersion": "91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462})",
+         "userDataDir": "C:\\Users\\yamax\\AppData\\Local\\Temp\\scoped_dir13880_550440496"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:58292"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:largeBlob": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "970492cd98e87619dedd3e4fd19df4a4"
+}
+[1627142837.606][INFO]: [970492cd98e87619dedd3e4fd19df4a4] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1627142837.606][INFO]: Waiting for pending navigations...
+[1627142837.607][INFO]: Done waiting for pending navigations. Status: ok
+[1627142837.715][INFO]: Waiting for pending navigations...
+[1627142837.715][INFO]: Done waiting for pending navigations. Status: ok
+[1627142837.715][INFO]: [970492cd98e87619dedd3e4fd19df4a4] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 10,
+   "y": 10
+}
+[1627142837.731][INFO]: [970492cd98e87619dedd3e4fd19df4a4] COMMAND Navigate {
+   "url": "https://www.agoda.com"
+}
+[1627142837.731][INFO]: Waiting for pending navigations...
+[1627142837.731][INFO]: Done waiting for pending navigations. Status: ok
+[1627142837.934][INFO]: Waiting for pending navigations...
+[1627142839.496][INFO]: Done waiting for pending navigations. Status: ok
+[1627142839.496][INFO]: [970492cd98e87619dedd3e4fd19df4a4] RESPONSE Navigate
+[1627142839.613][INFO]: [970492cd98e87619dedd3e4fd19df4a4] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".IconBox\\ IconBox\\-\\-checkIn"
+}
+[1627142839.613][INFO]: Waiting for pending navigations...
+[1627142839.625][INFO]: Done waiting for pending navigations. Status: ok
+[1627142839.674][INFO]: Waiting for pending navigations...
+[1627142839.676][INFO]: Done waiting for pending navigations. Status: ok
+[1627142839.676][INFO]: [970492cd98e87619dedd3e4fd19df4a4] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".IconBox\ IconBox\-\-checkIn"}
+  (Session info: chrome=91.0.4472.164)
+[1627142839.907][INFO]: [970492cd98e87619dedd3e4fd19df4a4] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".IconBox\\ IconBox\\-\\-checkIn"
+}
+[1627142839.907][INFO]: Waiting for pending navigations...
+[1627142839.908][INFO]: Done waiting for pending navigations. Status: ok
+[1627142839.912][INFO]: Waiting for pending navigations...
+[1627142839.912][INFO]: Done waiting for pending navigations. Status: ok
+[1627142839.912][INFO]: [970492cd98e87619dedd3e4fd19df4a4] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".IconBox\ IconBox\-\-checkIn"}
+  (Session info: chrome=91.0.4472.164)
+[1627142840.141][INFO]: [970492cd98e87619dedd3e4fd19df4a4] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".IconBox\\ IconBox\\-\\-checkIn"
+}
+[1627142840.141][INFO]: Waiting for pending navigations...
+[1627142840.142][INFO]: Done waiting for pending navigations. Status: ok
+[1627142840.146][INFO]: Waiting for pending navigations...
+[1627142840.146][INFO]: Done waiting for pending navigations. Status: ok
+[1627142840.146][INFO]: [970492cd98e87619dedd3e4fd19df4a4] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".IconBox\ IconBox\-\-checkIn"}
+  (Session info: chrome=91.0.4472.164)
+[1627142840.373][INFO]: [970492cd98e87619dedd3e4fd19df4a4] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".IconBox\\ IconBox\\-\\-checkIn"
+}
+[1627142840.373][INFO]: Waiting for pending navigations...
+[1627142840.374][INFO]: Done waiting for pending navigations. Status: ok
+[1627142840.377][INFO]: Waiting for pending navigations...
+[1627142840.378][INFO]: Done waiting for pending navigations. Status: ok
+[1627142840.378][INFO]: [970492cd98e87619dedd3e4fd19df4a4] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".IconBox\ IconBox\-\-checkIn"}
+  (Session info: chrome=91.0.4472.164)
+[1627142840.608][INFO]: [970492cd98e87619dedd3e4fd19df4a4] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".IconBox\\ IconBox\\-\\-checkIn"
+}
+[1627142840.608][INFO]: Waiting for pending navigations...
+[1627142840.609][INFO]: Done waiting for pending navigations. Status: ok
+[1627142840.612][INFO]: Waiting for pending navigations...
+[1627142840.613][INFO]: Done waiting for pending navigations. Status: ok
+[1627142840.613][INFO]: [970492cd98e87619dedd3e4fd19df4a4] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".IconBox\ IconBox\-\-checkIn"}
+  (Session info: chrome=91.0.4472.164)
+[1627142840.842][INFO]: [970492cd98e87619dedd3e4fd19df4a4] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".IconBox\\ IconBox\\-\\-checkIn"
+}
+[1627142840.842][INFO]: Waiting for pending navigations...
+[1627142840.843][INFO]: Done waiting for pending navigations. Status: ok
+[1627142840.846][INFO]: Waiting for pending navigations...
+[1627142840.847][INFO]: Done waiting for pending navigations. Status: ok
+[1627142840.847][INFO]: [970492cd98e87619dedd3e4fd19df4a4] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".IconBox\ IconBox\-\-checkIn"}
+  (Session info: chrome=91.0.4472.164)
+[1627142841.078][INFO]: [970492cd98e87619dedd3e4fd19df4a4] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".IconBox\\ IconBox\\-\\-checkIn"
+}
+[1627142841.078][INFO]: Waiting for pending navigations...
+[1627142841.079][INFO]: Done waiting for pending navigations. Status: ok
+[1627142841.083][INFO]: Waiting for pending navigations...
+[1627142841.083][INFO]: Done waiting for pending navigations. Status: ok
+[1627142841.083][INFO]: [970492cd98e87619dedd3e4fd19df4a4] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".IconBox\ IconBox\-\-checkIn"}
+  (Session info: chrome=91.0.4472.164)
+[1627142841.316][INFO]: [970492cd98e87619dedd3e4fd19df4a4] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".IconBox\\ IconBox\\-\\-checkIn"
+}
+[1627142841.316][INFO]: Waiting for pending navigations...
+[1627142841.317][INFO]: Done waiting for pending navigations. Status: ok
+[1627142841.321][INFO]: Waiting for pending navigations...
+[1627142841.321][INFO]: Done waiting for pending navigations. Status: ok
+[1627142841.321][INFO]: [970492cd98e87619dedd3e4fd19df4a4] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".IconBox\ IconBox\-\-checkIn"}
+  (Session info: chrome=91.0.4472.164)
+[1627142841.552][INFO]: [970492cd98e87619dedd3e4fd19df4a4] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".IconBox\\ IconBox\\-\\-checkIn"
+}
+[1627142841.552][INFO]: Waiting for pending navigations...
+[1627142841.553][INFO]: Done waiting for pending navigations. Status: ok
+[1627142841.557][INFO]: Waiting for pending navigations...
+[1627142841.557][INFO]: Done waiting for pending navigations. Status: ok
+[1627142841.557][INFO]: [970492cd98e87619dedd3e4fd19df4a4] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".IconBox\ IconBox\-\-checkIn"}
+  (Session info: chrome=91.0.4472.164)
+[1627142841.784][INFO]: [970492cd98e87619dedd3e4fd19df4a4] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".IconBox\\ IconBox\\-\\-checkIn"
+}
+[1627142841.784][INFO]: Waiting for pending navigations...
+[1627142841.786][INFO]: Done waiting for pending navigations. Status: ok
+[1627142841.790][INFO]: Waiting for pending navigations...
+[1627142841.791][INFO]: Done waiting for pending navigations. Status: ok
+[1627142841.791][INFO]: [970492cd98e87619dedd3e4fd19df4a4] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".IconBox\ IconBox\-\-checkIn"}
+  (Session info: chrome=91.0.4472.164)
+[1627142842.014][INFO]: [970492cd98e87619dedd3e4fd19df4a4] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".IconBox\\ IconBox\\-\\-checkIn"
+}
+[1627142842.015][INFO]: Waiting for pending navigations...
+[1627142842.016][INFO]: Done waiting for pending navigations. Status: ok
+[1627142842.020][INFO]: Waiting for pending navigations...
+[1627142842.020][INFO]: Done waiting for pending navigations. Status: ok
+[1627142842.020][INFO]: [970492cd98e87619dedd3e4fd19df4a4] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".IconBox\ IconBox\-\-checkIn"}
+  (Session info: chrome=91.0.4472.164)
+[1627142842.241][INFO]: [970492cd98e87619dedd3e4fd19df4a4] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".IconBox\\ IconBox\\-\\-checkIn"
+}
+[1627142842.241][INFO]: Waiting for pending navigations...
+[1627142842.289][INFO]: Done waiting for pending navigations. Status: ok
+[1627142842.713][INFO]: Waiting for pending navigations...
+[1627142842.939][INFO]: Done waiting for pending navigations. Status: ok
+[1627142842.939][INFO]: [970492cd98e87619dedd3e4fd19df4a4] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".IconBox\ IconBox\-\-checkIn"}
+  (Session info: chrome=91.0.4472.164)
+[1627142843.170][INFO]: [970492cd98e87619dedd3e4fd19df4a4] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".IconBox\\ IconBox\\-\\-checkIn"
+}
+[1627142843.176][INFO]: Waiting for pending navigations...
+[1627142843.177][INFO]: Done waiting for pending navigations. Status: ok
+[1627142843.181][INFO]: Waiting for pending navigations...
+[1627142843.182][INFO]: Done waiting for pending navigations. Status: ok
+[1627142843.182][INFO]: [970492cd98e87619dedd3e4fd19df4a4] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".IconBox\ IconBox\-\-checkIn"}
+  (Session info: chrome=91.0.4472.164)
+[1627142843.402][INFO]: [970492cd98e87619dedd3e4fd19df4a4] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".IconBox\\ IconBox\\-\\-checkIn"
+}
+[1627142843.403][INFO]: Waiting for pending navigations...
+[1627142843.404][INFO]: Done waiting for pending navigations. Status: ok
+[1627142843.408][INFO]: Waiting for pending navigations...
+[1627142843.408][INFO]: Done waiting for pending navigations. Status: ok
+[1627142843.408][INFO]: [970492cd98e87619dedd3e4fd19df4a4] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".IconBox\ IconBox\-\-checkIn"}
+  (Session info: chrome=91.0.4472.164)
+[1627142843.633][INFO]: [970492cd98e87619dedd3e4fd19df4a4] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1627142843.633][INFO]: Waiting for pending navigations...
+[1627142843.634][INFO]: Done waiting for pending navigations. Status: ok
+[1627142843.676][INFO]: Waiting for pending navigations...
+[1627142843.676][INFO]: Done waiting for pending navigations. Status: ok
+[1627142843.676][INFO]: [970492cd98e87619dedd3e4fd19df4a4] RESPONSE ExecuteScript "\u003Chtml lang=\"ru\" kite-lang=\"ru\" class=\"chrome no-js\" dir=\"ltr\">\u003Chead>\n    \u003Cmeta charset=\"utf-8\">\n        \u003Cmeta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    \n        \u003Cmeta nam..."
+[1627142843.749][INFO]: [970492cd98e87619dedd3e4fd19df4a4] COMMAND Screenshot {
+
+}
+[1627142843.749][INFO]: Waiting for pending navigations...
+[1627142843.749][INFO]: Done waiting for pending navigations. Status: ok
+[1627142843.950][INFO]: Waiting for pending navigations...
+[1627142843.972][INFO]: Done waiting for pending navigations. Status: ok
+[1627142843.972][INFO]: [970492cd98e87619dedd3e4fd19df4a4] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABUYAAAKnCAYAAABK/pfIAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3XtcFXX+P/DXOVw1L2QiIqWYlzWxgjS1G5fYEu27iVZAaaKLtW1aan1rzfwJ+GWTrd1Vy9RaWcK17wLfMqrNZSvi0k3sApmQhRdQEZHCa6nIOef3x8w5Z2bOz..."
+[1627142847.149][INFO]: [970492cd98e87619dedd3e4fd19df4a4] COMMAND Quit {
+
+}
+[1627142847.275][INFO]: [970492cd98e87619dedd3e4fd19df4a4] RESPONSE Quit

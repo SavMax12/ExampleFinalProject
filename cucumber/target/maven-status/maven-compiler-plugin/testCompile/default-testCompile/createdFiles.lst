@@ -1,0 +1,10 @@
+stepdefs\pages\CheckoutPageStepdefs.class
+runner\CucumberRunner.class
+stepdefs\db\DbStepdefs.class
+stepdefs\pages\FailedStepDefs.class
+stepdefs\pages\ProductPageStepdefs.class
+examples\SimpleLoggerExample.class
+stepdefs\pages\SuccessPageStepdefs.class
+stepdefs\pages\HomePageStepdefs.class
+examples\StaticLoggerExample.class
+hooks\Hooks.class

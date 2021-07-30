@@ -1,0 +1,59 @@
+<html lang="en"><head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>Dzmitry Klokau: Success</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="./assets/css/form-validation.css" rel="stylesheet">
+
+  <link href="./assets/css/main.css" rel="stylesheet">
+</head>
+
+<body id="body" class="gradient-body">
+
+  <div id="navbar" class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 gradient-menu box-shadow">
+    <h5 onclick="navigator.clipboard.writeText('navbar-author-btn')" id="navbar-author-btn" class="my-0 mr-md-auto font-weight-normal">Dzmitry Klokau</h5>
+    <nav class="my-2 my-md-0 mr-md-3">
+      <a onclick="navigator.clipboard.writeText('navbar-home-btn')" id="navbar-home-btn" class="p-2 text-blue" href="./index.html">Home</a>
+      <a onclick="navigator.clipboard.writeText('navbar-products-btn')" id="navbar-products-btn" class="p-2 text-dark" href="./products.html">Products</a>
+      <a onclick="navigator.clipboard.writeText('navbar-locators-btn')" id="navbar-locators-btn" class="p-2 text-dark" href="./locators.html">Locators</a>
+      <a onclick="navigator.clipboard.writeText('navbar-js-btn')" id="navbar-js-btn" class="p-2 text-dark" href="./js.html">Js</a>
+      <a onclick="navigator.clipboard.writeText('navbar-actions-btn')" id="navbar-actions-btn" class="p-2 text-dark" href="./actions.html">Actions</a>
+      <a onclick="navigator.clipboard.writeText('navbar-frame-btn')" id="navbar-frame-btn" class="p-2 text-dark" href="./frame.html">Frame</a>
+      <a onclick="navigator.clipboard.writeText('navbar-video-btn')" id="navbar-video-btn" class="p-2 text-dark" href="./video.html">Video</a>
+      <a onclick="navigator.clipboard.writeText('navbar-canvas-btn')" id="navbar-canvas-btn" class="p-2 text-dark" href="./canvas.html">Canvas</a>
+    </nav>
+  </div>
+
+  <div class="container">
+
+    <div class="py-5 text-center" id="loading">
+      <h2 onclick="navigator.clipboard.writeText('loading')" id="checkout-lbl-id">Loading...</h2>
+    </div>
+
+    <div class="col-md-12 order-md-1">
+      <br><br><br><br>
+
+      <div id="success-container" class="text-center">
+      </div>
+    </div>
+  </div>
+
+  <script src="./assets/js/jquery-3.2.1.slim.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+  <script>
+    setTimeout(function () {
+      $('#loading').hide();
+      $("#success-container").append("<h1 onclick='navigator.clipboard.writeText(\"success-title\")' id='success-title' class='display-3'>Thank You!</h1><br/><br /><br /><br /><button onclick='window.location=\"./index.html\"; navigator.clipboard.writeText(\"success-continue-btn\")' id='success-continue-btn' class='btn btn-lg btn-outline-primary btn-block'>Continue</button>");
+    }, 5000);
+  </script>
+
+
+
+</body></html>

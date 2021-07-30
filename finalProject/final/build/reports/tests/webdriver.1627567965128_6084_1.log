@@ -1,0 +1,182 @@
+[1627567965.273][INFO]: Starting ChromeDriver 92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}) on port 36440
+[1627567965.274][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1627567965.986][INFO]: [294ce649921d17e39268616f4913bf39] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\webinar\\webinar-folder\\final\\build\\downloads",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\webinar\\webinar-folder\\final\\build\\downloads",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1627567965.989][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\webinar\\webinar-folder\\final\\build\\downloads"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1627567965.990][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1627567965.991][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-service-autorun --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\yamax\AppData\Local\Temp\scoped_dir11448_1274493786" data:,
+[1627567966.495][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1627567966.498][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1627567966.504][INFO]: [294ce649921d17e39268616f4913bf39] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "92.0.4515.107",
+      "chrome": {
+         "chromedriverVersion": "92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306})",
+         "userDataDir": "C:\\Users\\yamax\\AppData\\Local\\Temp\\scoped_dir11448_1274493786"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:58868"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "294ce649921d17e39268616f4913bf39"
+}
+[1627567966.551][INFO]: [294ce649921d17e39268616f4913bf39] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1627567966.551][INFO]: Waiting for pending navigations...
+[1627567966.553][INFO]: Done waiting for pending navigations. Status: ok
+[1627567966.660][INFO]: Waiting for pending navigations...
+[1627567966.661][INFO]: Done waiting for pending navigations. Status: ok
+[1627567966.661][INFO]: [294ce649921d17e39268616f4913bf39] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 10,
+   "y": 10
+}
+[1627567966.676][INFO]: [294ce649921d17e39268616f4913bf39] COMMAND Navigate {
+   "url": "https://www.agoda.com"
+}
+[1627567966.676][INFO]: Waiting for pending navigations...
+[1627567966.677][INFO]: Done waiting for pending navigations. Status: ok
+[1627567966.841][INFO]: Waiting for pending navigations...
+[1627567968.033][INFO]: Done waiting for pending navigations. Status: ok
+[1627567968.033][INFO]: [294ce649921d17e39268616f4913bf39] RESPONSE Navigate
+[1627567968.153][INFO]: [294ce649921d17e39268616f4913bf39] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//span[@class=IconBox IconBox--checkIn]"
+}
+[1627567968.154][INFO]: Waiting for pending navigations...
+[1627567968.325][INFO]: Done waiting for pending navigations. Status: ok
+[1627567968.378][INFO]: Waiting for pending navigations...
+[1627567968.397][INFO]: Done waiting for pending navigations. Status: ok
+[1627567968.398][INFO]: [294ce649921d17e39268616f4913bf39] RESPONSE FindElement ERROR invalid selector: Unable to locate an element with the xpath expression //span[@class=IconBox IconBox--checkIn] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//span[@class=IconBox IconBox--checkIn]' is not a valid XPath expression.
+  (Session info: chrome=92.0.4515.107)
+[1627567971.437][INFO]: [294ce649921d17e39268616f4913bf39] COMMAND Quit {
+
+}
+[1627567971.480][INFO]: [294ce649921d17e39268616f4913bf39] RESPONSE Quit

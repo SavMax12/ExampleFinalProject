@@ -1,0 +1,171 @@
+<html lang="en"><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Dzmitry Klokau: Checkout</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="./assets/css/form-validation.css" rel="stylesheet">
+
+    <link href="./assets/css/main.css" rel="stylesheet">
+</head>
+
+<body id="body" class="gradient-body">
+
+    <div id="navbar" class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 gradient-menu box-shadow">
+        <h5 onclick="navigator.clipboard.writeText('navbar-author-btn')" id="navbar-author-btn" class="my-0 mr-md-auto font-weight-normal">Dzmitry Klokau</h5>
+        <nav class="my-2 my-md-0 mr-md-3">
+            <a onclick="navigator.clipboard.writeText('navbar-home-btn')" id="navbar-home-btn" class="p-2 text-dark" href="./index.html">Home</a>
+            <a onclick="navigator.clipboard.writeText('navbar-products-btn')" id="navbar-products-btn" class="p-2 text-blue" href="./products.html">Products</a>
+            <a onclick="navigator.clipboard.writeText('navbar-locators-btn')" id="navbar-locators-btn" class="p-2 text-dark" href="./locators.html">Locators</a>
+            <a onclick="navigator.clipboard.writeText('navbar-js-btn')" id="navbar-js-btn" class="p-2 text-dark" href="./js.html">Js</a>
+            <a onclick="navigator.clipboard.writeText('navbar-actions-btn')" id="navbar-actions-btn" class="p-2 text-dark" href="./actions.html">Actions</a>
+            <a onclick="navigator.clipboard.writeText('navbar-frame-btn')" id="navbar-frame-btn" class="p-2 text-dark" href="./frame.html">Frame</a>
+            <a onclick="navigator.clipboard.writeText('navbar-video-btn')" id="navbar-video-btn" class="p-2 text-dark" href="./video.html">Video</a>
+            <a onclick="navigator.clipboard.writeText('navbar-canvas-btn')" id="navbar-canvas-btn" class="p-2 text-dark" href="./canvas.html">Canvas</a>
+        </nav>
+    </div>
+
+    <div id="checkout-container" class="container">
+        <div class="py-5 text-center">
+            <h2 onclick="navigator.clipboard.writeText('checkout-lbl-id')" id="checkout-lbl-id">Checkout form</h2>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 order-md-2 mb-4">
+
+                <div class="col-md-12 order-md-1">
+                    <h4 onclick="navigator.clipboard.writeText('billing-address-lbl-id')" id="billing-address-lbl-id" class="mb-3">Billing address</h4>
+                    <form class="needs-validation" id="checkout-form-id" novalidate="">
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <img onclick="navigator.clipboard.writeText('first-name-lbl-id')" src="./assets/svg/copy-locator.svg" alt="" width="15" height="15">
+                                <label id="first-name-lbl-id" for="first-name-input-id">First name</label>
+                                <input type="text" class="form-control" onclick="navigator.clipboard.writeText('first-name-input-id')" id="first-name-input-id" placeholder="" value="" required="">
+                                <div onclick="navigator.clipboard.writeText('first-name-error-lbl-id')" id="firstName-error-lbl-id" class="invalid-feedback">
+                                    Valid first name is required.
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <img onclick="navigator.clipboard.writeText('last-name-lbl-id')" src="./assets/svg/copy-locator.svg" alt="" width="15" height="15">
+                                <label id="last-name-lbl-id" for="last-name-input-id">Last name</label>
+                                <input type="text" class="form-control" onclick="navigator.clipboard.writeText('last-name-input-id')" id="last-name-input-id" placeholder="" value="" required="">
+                                <div onclick="navigator.clipboard.writeText('last-name-error-lbl-id')" id="last-name-error-lbl-id" class="invalid-feedback">
+                                    Valid last name is required.
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="row">
+                            <div class="col-md-5 mb-3">
+                                <img onclick="navigator.clipboard.writeText('country-selector-id')" src="./assets/svg/copy-locator.svg" alt="" width="15" height="15">
+                                <label id="country-lbl-id" for="country-selector-id">Country</label>
+                                <select class="custom-select d-block w-100" id="country-selector-id" required="">
+                                    <option value="">Choose...</option>
+                                    <option>Belarus</option>
+                                </select>
+                                <div onclick="navigator.clipboard.writeText('country-error-lbl-id')" id="country-error-lbl-id" class="invalid-feedback">
+                                    Please select a valid country.
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <img onclick="navigator.clipboard.writeText('city-selector-id')" src="./assets/svg/copy-locator.svg" alt="" width="15" height="15">
+                                <label id="city-lbl-id" for="city-selector-id">City</label>
+                                <select class="custom-select d-block w-100" id="city-selector-id" required="">
+                                    <option value="">Choose...</option>
+                                    <option>Grodno</option>
+                                    <option>Minsk</option>
+                                    <option>Brest</option>
+                                    <option>Vitebsk</option>
+                                    <option>Gomel</option>
+                                    <option>Mogilev</option>
+                                </select>
+                                <div onclick="navigator.clipboard.writeText('city-error-lbl-id')" id="city-error-lbl-id" class="invalid-feedback">
+                                    Please provide a valid state.
+                                </div>
+                            </div>
+                            <div class="col-md-3 mb-3">
+                                <img onclick="navigator.clipboard.writeText('zip-lbl-id')" src="./assets/svg/copy-locator.svg" alt="" width="15" height="15">
+                                <label id="zip-lbl-id" for="zip-input-id">Zip</label>
+                                <input onclick="navigator.clipboard.writeText('zip-input-id')" type="text" class="form-control" id="zip-input-id" placeholder="" required="">
+                                <div onclick="navigator.clipboard.writeText('zip-error-lbl-id')" id="zip-error-lbl-id" class="invalid-feedback">
+                                    Zip code required.
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="mb-4">
+                        <div class="custom-control custom-checkbox">
+                            <input onclick="navigator.clipboard.writeText('save-info-checkbox-id')" type="checkbox" class="custom-control-input" id="save-info-checkbox-id">
+                            <label id="save-info-lbl-id" class="custom-control-label" for="save-info-checkbox-id">Save
+                                this information
+                                for next
+                                time</label>
+                            <img onclick="navigator.clipboard.writeText('save-info-lbl-id')" src="./assets/svg/copy-locator.svg" alt="" width="15" height="15">
+                        </div>
+                        <hr class="mb-4">
+
+                        <h4 id="payment-lbl-id" class="mb-3">Payment</h4>
+
+                        <div class="d-block my-3">
+                            <div class="custom-control custom-radio">
+                                <input onclick="navigator.clipboard.writeText('credit-radio-id')" id="credit-radio-id" name="paymentMethod" type="radio" class="custom-control-input" checked="" required="">
+                                <label id="credit-lbl-id" class="custom-control-label" for="credit-radio-id">Credit
+                                    card</label>
+                                <img onclick="navigator.clipboard.writeText('credit-lbl-id')" src="./assets/svg/copy-locator.svg" alt="" width="15" height="15">
+                            </div>
+                            <div class="custom-control custom-radio">
+                                <input onclick="navigator.clipboard.writeText('cash-radio-id')" id="cash-radio-id" name="paymentMethod" type="radio" class="custom-control-input" required="">
+                                <label id="cash-lbl-id" class="custom-control-label" for="cash-radio-id">Cash</label>
+                                <img onclick="navigator.clipboard.writeText('cash-lbl-id')" src="./assets/svg/copy-locator.svg" alt="" width="15" height="15">
+                            </div>
+                        </div>
+
+                        <hr class="mb-4">
+                    </form>
+                    <button class="btn btn-lg btn-outline-primary btn-block" id="continue-btn-id" onclick="navigator.clipboard.writeText('continue-btn-id'); return onSubmitValidation()">Continue
+                    </button>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Bootstrap core JavaScript
+    ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="./assets/js/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+        <script src="./assets/js/bootstrap.min.js"></script>
+        <script>
+            function onSubmitValidation() {
+                // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                var forms = document.getElementsByClassName('needs-validation');
+                Array.prototype.filter.call(forms, function (form) {
+
+                    if (form.checkValidity() === false) {
+                        event.preventDefault();
+                        event.stopPropagation();
+                    } else {
+                        window.location = './success.html'
+                    }
+                    form.classList.add('was-validated');
+                })
+            }
+        </script>
+
+
+        <div id="mouseposition-extension-element-full-container" style="position: fixed; inset: 0px; pointer-events: none; z-index: 2147483647; font-weight: 400;">
+            <div id="mouseposition-extension-element-rect-display" style="display: none; position: absolute; background: rgba(255, 255, 255, 0.7); outline: black solid 1px; font-size: 12px; z-index: 2147483647; justify-content: center; align-items: center; user-select: none; cursor: default; color: rgb(0, 0, 0); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; width: 0px; height: 0px;">
+                <pre style="flex: 1 1 0%; text-align: center; background-color: rgba(255, 255, 255, 0.7); color: rgb(0, 0, 0); min-width: 42px; min-height: 12px; transition: all 1s ease 0s;"></pre>
+            </div>
+            <pre id="mouseposition-extension-element-coordinate-display" style="position: absolute; display: none; background: rgb(255, 255, 255); font-size: 12px; line-height: 14px; border-radius: 3px; border-width: 1px; border-color: rgb(34, 34, 34) black rgb(51, 51, 51); border-style: solid; padding: 3px; z-index: 2147483647; color: rgb(34, 34, 34); user-select: none; cursor: default; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;"></pre>
+        </div>
+    </div>
+
+
+
+</body></html>

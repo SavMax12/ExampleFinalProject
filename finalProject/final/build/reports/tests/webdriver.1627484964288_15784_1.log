@@ -1,0 +1,348 @@
+[1627484964.329][INFO]: Starting ChromeDriver 92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}) on port 42304
+[1627484964.329][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1627484964.842][INFO]: [348864f5b7c85e354bc9d68c729c4f81] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\webinar\\webinar-folder\\final\\build\\downloads",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\webinar\\webinar-folder\\final\\build\\downloads",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1627484964.846][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\webinar\\webinar-folder\\final\\build\\downloads"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1627484964.847][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1627484964.848][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-service-autorun --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\yamax\AppData\Local\Temp\scoped_dir8432_1759921130" data:,
+[1627484965.382][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1627484965.386][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1627484965.390][INFO]: [348864f5b7c85e354bc9d68c729c4f81] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "92.0.4515.107",
+      "chrome": {
+         "chromedriverVersion": "92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306})",
+         "userDataDir": "C:\\Users\\yamax\\AppData\\Local\\Temp\\scoped_dir8432_1759921130"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:58345"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "348864f5b7c85e354bc9d68c729c4f81"
+}
+[1627484965.405][INFO]: [348864f5b7c85e354bc9d68c729c4f81] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1627484965.405][INFO]: Waiting for pending navigations...
+[1627484965.407][INFO]: Done waiting for pending navigations. Status: ok
+[1627484965.515][INFO]: Waiting for pending navigations...
+[1627484965.516][INFO]: Done waiting for pending navigations. Status: ok
+[1627484965.516][INFO]: [348864f5b7c85e354bc9d68c729c4f81] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 10,
+   "y": 10
+}
+[1627484965.531][INFO]: [348864f5b7c85e354bc9d68c729c4f81] COMMAND Navigate {
+   "url": "https://www.agoda.com/account/signin.html?option=signup&ottoken=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIn0.cicfnJvJqFJZjLW0BEr0m3cUDXcpwdSrO8v1peR4mgCpV6KVZWr41QVR_zjzeUMPRPz5bASMkhmSOW_vwPRbSPpXo5g_vBYH.NWOr9laC3UKHjM9J5eqbtQ.H8OWWcikEpBRP1Tpy6OWVloxkvieJSEnbaZuP3V_gzO4LYT31S6Ghe8mjjIeNjEW.EmxUronTKTmSRSMAe2bjzuqX1VHw3bRghpCn9eYrBFM&returnurl=%2F"
+}
+[1627484965.531][INFO]: Waiting for pending navigations...
+[1627484965.532][INFO]: Done waiting for pending navigations. Status: ok
+[1627484965.912][INFO]: Waiting for pending navigations...
+[1627484967.755][INFO]: Done waiting for pending navigations. Status: ok
+[1627484967.755][INFO]: [348864f5b7c85e354bc9d68c729c4f81] RESPONSE Navigate
+[1627484967.877][INFO]: [348864f5b7c85e354bc9d68c729c4f81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#firstName"
+}
+[1627484967.994][INFO]: Waiting for pending navigations...
+[1627484968.026][INFO]: Done waiting for pending navigations. Status: ok
+[1627484968.056][INFO]: Waiting for pending navigations...
+[1627484968.058][INFO]: Done waiting for pending navigations. Status: ok
+[1627484968.058][INFO]: [348864f5b7c85e354bc9d68c729c4f81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#firstName"}
+  (Session info: chrome=92.0.4515.107)
+[1627484968.293][INFO]: [348864f5b7c85e354bc9d68c729c4f81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#firstName"
+}
+[1627484968.293][INFO]: Waiting for pending navigations...
+[1627484968.293][INFO]: Done waiting for pending navigations. Status: ok
+[1627484968.297][INFO]: Waiting for pending navigations...
+[1627484968.297][INFO]: Done waiting for pending navigations. Status: ok
+[1627484968.297][INFO]: [348864f5b7c85e354bc9d68c729c4f81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#firstName"}
+  (Session info: chrome=92.0.4515.107)
+[1627484968.526][INFO]: [348864f5b7c85e354bc9d68c729c4f81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#firstName"
+}
+[1627484968.526][INFO]: Waiting for pending navigations...
+[1627484968.598][INFO]: Done waiting for pending navigations. Status: ok
+[1627484968.622][INFO]: Waiting for pending navigations...
+[1627484968.625][INFO]: Done waiting for pending navigations. Status: ok
+[1627484968.625][INFO]: [348864f5b7c85e354bc9d68c729c4f81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#firstName"}
+  (Session info: chrome=92.0.4515.107)
+[1627484968.852][INFO]: [348864f5b7c85e354bc9d68c729c4f81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#firstName"
+}
+[1627484968.852][INFO]: Waiting for pending navigations...
+[1627484968.855][INFO]: Done waiting for pending navigations. Status: ok
+[1627484968.862][INFO]: Waiting for pending navigations...
+[1627484968.863][INFO]: Done waiting for pending navigations. Status: ok
+[1627484968.863][INFO]: [348864f5b7c85e354bc9d68c729c4f81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#firstName"}
+  (Session info: chrome=92.0.4515.107)
+[1627484969.084][INFO]: [348864f5b7c85e354bc9d68c729c4f81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#firstName"
+}
+[1627484969.086][INFO]: Waiting for pending navigations...
+[1627484969.087][INFO]: Done waiting for pending navigations. Status: ok
+[1627484969.091][INFO]: Waiting for pending navigations...
+[1627484969.091][INFO]: Done waiting for pending navigations. Status: ok
+[1627484969.091][INFO]: [348864f5b7c85e354bc9d68c729c4f81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#firstName"}
+  (Session info: chrome=92.0.4515.107)
+[1627484969.316][INFO]: [348864f5b7c85e354bc9d68c729c4f81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#firstName"
+}
+[1627484969.318][INFO]: Waiting for pending navigations...
+[1627484969.344][INFO]: Done waiting for pending navigations. Status: ok
+[1627484969.351][INFO]: Waiting for pending navigations...
+[1627484969.352][INFO]: Done waiting for pending navigations. Status: ok
+[1627484969.352][INFO]: [348864f5b7c85e354bc9d68c729c4f81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#firstName"}
+  (Session info: chrome=92.0.4515.107)
+[1627484969.577][INFO]: [348864f5b7c85e354bc9d68c729c4f81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#firstName"
+}
+[1627484969.579][INFO]: Waiting for pending navigations...
+[1627484969.580][INFO]: Done waiting for pending navigations. Status: ok
+[1627484969.584][INFO]: Waiting for pending navigations...
+[1627484969.585][INFO]: Done waiting for pending navigations. Status: ok
+[1627484969.585][INFO]: [348864f5b7c85e354bc9d68c729c4f81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#firstName"}
+  (Session info: chrome=92.0.4515.107)
+[1627484969.812][INFO]: [348864f5b7c85e354bc9d68c729c4f81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#firstName"
+}
+[1627484969.812][INFO]: Waiting for pending navigations...
+[1627484969.813][INFO]: Done waiting for pending navigations. Status: ok
+[1627484969.816][INFO]: Waiting for pending navigations...
+[1627484969.817][INFO]: Done waiting for pending navigations. Status: ok
+[1627484969.817][INFO]: [348864f5b7c85e354bc9d68c729c4f81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#firstName"}
+  (Session info: chrome=92.0.4515.107)
+[1627484970.045][INFO]: [348864f5b7c85e354bc9d68c729c4f81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#firstName"
+}
+[1627484970.045][INFO]: Waiting for pending navigations...
+[1627484970.046][INFO]: Done waiting for pending navigations. Status: ok
+[1627484970.049][INFO]: Waiting for pending navigations...
+[1627484970.049][INFO]: Done waiting for pending navigations. Status: ok
+[1627484970.049][INFO]: [348864f5b7c85e354bc9d68c729c4f81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#firstName"}
+  (Session info: chrome=92.0.4515.107)
+[1627484970.278][INFO]: [348864f5b7c85e354bc9d68c729c4f81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#firstName"
+}
+[1627484970.278][INFO]: Waiting for pending navigations...
+[1627484970.279][INFO]: Done waiting for pending navigations. Status: ok
+[1627484970.282][INFO]: Waiting for pending navigations...
+[1627484970.283][INFO]: Done waiting for pending navigations. Status: ok
+[1627484970.283][INFO]: [348864f5b7c85e354bc9d68c729c4f81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#firstName"}
+  (Session info: chrome=92.0.4515.107)
+[1627484970.514][INFO]: [348864f5b7c85e354bc9d68c729c4f81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#firstName"
+}
+[1627484970.514][INFO]: Waiting for pending navigations...
+[1627484970.515][INFO]: Done waiting for pending navigations. Status: ok
+[1627484970.519][INFO]: Waiting for pending navigations...
+[1627484970.520][INFO]: Done waiting for pending navigations. Status: ok
+[1627484970.520][INFO]: [348864f5b7c85e354bc9d68c729c4f81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#firstName"}
+  (Session info: chrome=92.0.4515.107)
+[1627484970.749][INFO]: [348864f5b7c85e354bc9d68c729c4f81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#firstName"
+}
+[1627484970.749][INFO]: Waiting for pending navigations...
+[1627484970.750][INFO]: Done waiting for pending navigations. Status: ok
+[1627484970.753][INFO]: Waiting for pending navigations...
+[1627484970.754][INFO]: Done waiting for pending navigations. Status: ok
+[1627484970.754][INFO]: [348864f5b7c85e354bc9d68c729c4f81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#firstName"}
+  (Session info: chrome=92.0.4515.107)
+[1627484970.983][INFO]: [348864f5b7c85e354bc9d68c729c4f81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#firstName"
+}
+[1627484970.983][INFO]: Waiting for pending navigations...
+[1627484970.984][INFO]: Done waiting for pending navigations. Status: ok
+[1627484970.988][INFO]: Waiting for pending navigations...
+[1627484970.988][INFO]: Done waiting for pending navigations. Status: ok
+[1627484970.988][INFO]: [348864f5b7c85e354bc9d68c729c4f81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#firstName"}
+  (Session info: chrome=92.0.4515.107)
+[1627484971.216][INFO]: [348864f5b7c85e354bc9d68c729c4f81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#firstName"
+}
+[1627484971.216][INFO]: Waiting for pending navigations...
+[1627484971.217][INFO]: Done waiting for pending navigations. Status: ok
+[1627484971.221][INFO]: Waiting for pending navigations...
+[1627484971.221][INFO]: Done waiting for pending navigations. Status: ok
+[1627484971.221][INFO]: [348864f5b7c85e354bc9d68c729c4f81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#firstName"}
+  (Session info: chrome=92.0.4515.107)
+[1627484971.449][INFO]: [348864f5b7c85e354bc9d68c729c4f81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#firstName"
+}
+[1627484971.449][INFO]: Waiting for pending navigations...
+[1627484971.449][INFO]: Done waiting for pending navigations. Status: ok
+[1627484971.454][INFO]: Waiting for pending navigations...
+[1627484971.454][INFO]: Done waiting for pending navigations. Status: ok
+[1627484971.454][INFO]: [348864f5b7c85e354bc9d68c729c4f81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#firstName"}
+  (Session info: chrome=92.0.4515.107)
+[1627484971.685][INFO]: [348864f5b7c85e354bc9d68c729c4f81] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#firstName"
+}
+[1627484971.685][INFO]: Waiting for pending navigations...
+[1627484971.714][INFO]: Done waiting for pending navigations. Status: ok
+[1627484971.948][INFO]: Waiting for pending navigations...
+[1627484971.967][INFO]: Done waiting for pending navigations. Status: ok
+[1627484971.967][INFO]: [348864f5b7c85e354bc9d68c729c4f81] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#firstName"}
+  (Session info: chrome=92.0.4515.107)
+[1627484972.198][INFO]: [348864f5b7c85e354bc9d68c729c4f81] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1627484972.198][INFO]: Waiting for pending navigations...
+[1627484972.199][INFO]: Done waiting for pending navigations. Status: ok
+[1627484972.227][INFO]: Waiting for pending navigations...
+[1627484972.229][INFO]: Done waiting for pending navigations. Status: ok
+[1627484972.229][INFO]: [348864f5b7c85e354bc9d68c729c4f81] RESPONSE ExecuteScript "\u003Chtml lang=\"ru\" class=\"chrome no-js\" dir=\"ltr\">\u003C!-- rendered at UTC: Wednesday, July 28, 2021 3:09 PM -->\u003C!--\u003C![endif]-->\u003Chead prefix=\"og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#  place: http://..."
+[1627484972.302][INFO]: [348864f5b7c85e354bc9d68c729c4f81] COMMAND Screenshot {
+
+}
+[1627484972.302][INFO]: Waiting for pending navigations...
+[1627484972.302][INFO]: Done waiting for pending navigations. Status: ok
+[1627484972.391][INFO]: Waiting for pending navigations...
+[1627484972.392][INFO]: Done waiting for pending navigations. Status: ok
+[1627484972.392][INFO]: [348864f5b7c85e354bc9d68c729c4f81] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABUYAAAKnCAYAAABK/pfIAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3XtwW3ed9/HP0dWWLd9kO4kdO04aJ6FJG5N0oSFpp7MUSLcthUK7s3TpwlBIYGEGlqcUWvoAk22HXna7hRLI0NIHmFAoS+GhD7vl0lLamBR6S0nKxnGb+BI7i..."
+[1627484981.073][INFO]: [348864f5b7c85e354bc9d68c729c4f81] COMMAND Quit {
+
+}
+[1627484981.122][INFO]: [348864f5b7c85e354bc9d68c729c4f81] RESPONSE Quit

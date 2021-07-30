@@ -1,0 +1,348 @@
+[1627568087.738][INFO]: Starting ChromeDriver 92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}) on port 41152
+[1627568087.738][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1627568088.445][INFO]: [f277477eaad0241467e6f4b2398b71c5] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\webinar\\webinar-folder\\final\\build\\downloads",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\webinar\\webinar-folder\\final\\build\\downloads",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1627568088.449][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\webinar\\webinar-folder\\final\\build\\downloads"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1627568088.449][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1627568088.451][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-service-autorun --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\yamax\AppData\Local\Temp\scoped_dir4568_1218049167" data:,
+[1627568088.978][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1627568088.981][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1627568088.987][INFO]: [f277477eaad0241467e6f4b2398b71c5] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "92.0.4515.107",
+      "chrome": {
+         "chromedriverVersion": "92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306})",
+         "userDataDir": "C:\\Users\\yamax\\AppData\\Local\\Temp\\scoped_dir4568_1218049167"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:62221"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "f277477eaad0241467e6f4b2398b71c5"
+}
+[1627568089.032][INFO]: [f277477eaad0241467e6f4b2398b71c5] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1627568089.032][INFO]: Waiting for pending navigations...
+[1627568089.033][INFO]: Done waiting for pending navigations. Status: ok
+[1627568089.142][INFO]: Waiting for pending navigations...
+[1627568089.143][INFO]: Done waiting for pending navigations. Status: ok
+[1627568089.143][INFO]: [f277477eaad0241467e6f4b2398b71c5] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 10,
+   "y": 10
+}
+[1627568089.158][INFO]: [f277477eaad0241467e6f4b2398b71c5] COMMAND Navigate {
+   "url": "https://www.agoda.com"
+}
+[1627568089.158][INFO]: Waiting for pending navigations...
+[1627568089.159][INFO]: Done waiting for pending navigations. Status: ok
+[1627568089.401][INFO]: Waiting for pending navigations...
+[1627568090.748][INFO]: Done waiting for pending navigations. Status: ok
+[1627568090.748][INFO]: [f277477eaad0241467e6f4b2398b71c5] RESPONSE Navigate
+[1627568090.862][INFO]: [f277477eaad0241467e6f4b2398b71c5] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@data-selenium=checkInBox]"
+}
+[1627568090.862][INFO]: Waiting for pending navigations...
+[1627568090.907][INFO]: Done waiting for pending navigations. Status: ok
+[1627568090.945][INFO]: Waiting for pending navigations...
+[1627568090.961][INFO]: Done waiting for pending navigations. Status: ok
+[1627568090.961][INFO]: [f277477eaad0241467e6f4b2398b71c5] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@data-selenium=checkInBox]"}
+  (Session info: chrome=92.0.4515.107)
+[1627568091.204][INFO]: [f277477eaad0241467e6f4b2398b71c5] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@data-selenium=checkInBox]"
+}
+[1627568091.204][INFO]: Waiting for pending navigations...
+[1627568091.205][INFO]: Done waiting for pending navigations. Status: ok
+[1627568091.210][INFO]: Waiting for pending navigations...
+[1627568091.211][INFO]: Done waiting for pending navigations. Status: ok
+[1627568091.211][INFO]: [f277477eaad0241467e6f4b2398b71c5] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@data-selenium=checkInBox]"}
+  (Session info: chrome=92.0.4515.107)
+[1627568091.437][INFO]: [f277477eaad0241467e6f4b2398b71c5] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@data-selenium=checkInBox]"
+}
+[1627568091.437][INFO]: Waiting for pending navigations...
+[1627568091.438][INFO]: Done waiting for pending navigations. Status: ok
+[1627568091.443][INFO]: Waiting for pending navigations...
+[1627568091.444][INFO]: Done waiting for pending navigations. Status: ok
+[1627568091.444][INFO]: [f277477eaad0241467e6f4b2398b71c5] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@data-selenium=checkInBox]"}
+  (Session info: chrome=92.0.4515.107)
+[1627568091.673][INFO]: [f277477eaad0241467e6f4b2398b71c5] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@data-selenium=checkInBox]"
+}
+[1627568091.673][INFO]: Waiting for pending navigations...
+[1627568091.674][INFO]: Done waiting for pending navigations. Status: ok
+[1627568091.678][INFO]: Waiting for pending navigations...
+[1627568091.679][INFO]: Done waiting for pending navigations. Status: ok
+[1627568091.679][INFO]: [f277477eaad0241467e6f4b2398b71c5] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@data-selenium=checkInBox]"}
+  (Session info: chrome=92.0.4515.107)
+[1627568091.905][INFO]: [f277477eaad0241467e6f4b2398b71c5] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@data-selenium=checkInBox]"
+}
+[1627568091.905][INFO]: Waiting for pending navigations...
+[1627568091.907][INFO]: Done waiting for pending navigations. Status: ok
+[1627568091.911][INFO]: Waiting for pending navigations...
+[1627568091.912][INFO]: Done waiting for pending navigations. Status: ok
+[1627568091.912][INFO]: [f277477eaad0241467e6f4b2398b71c5] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@data-selenium=checkInBox]"}
+  (Session info: chrome=92.0.4515.107)
+[1627568092.144][INFO]: [f277477eaad0241467e6f4b2398b71c5] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@data-selenium=checkInBox]"
+}
+[1627568092.144][INFO]: Waiting for pending navigations...
+[1627568092.145][INFO]: Done waiting for pending navigations. Status: ok
+[1627568092.149][INFO]: Waiting for pending navigations...
+[1627568092.150][INFO]: Done waiting for pending navigations. Status: ok
+[1627568092.150][INFO]: [f277477eaad0241467e6f4b2398b71c5] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@data-selenium=checkInBox]"}
+  (Session info: chrome=92.0.4515.107)
+[1627568092.380][INFO]: [f277477eaad0241467e6f4b2398b71c5] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@data-selenium=checkInBox]"
+}
+[1627568092.380][INFO]: Waiting for pending navigations...
+[1627568092.381][INFO]: Done waiting for pending navigations. Status: ok
+[1627568092.386][INFO]: Waiting for pending navigations...
+[1627568092.386][INFO]: Done waiting for pending navigations. Status: ok
+[1627568092.386][INFO]: [f277477eaad0241467e6f4b2398b71c5] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@data-selenium=checkInBox]"}
+  (Session info: chrome=92.0.4515.107)
+[1627568092.615][INFO]: [f277477eaad0241467e6f4b2398b71c5] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@data-selenium=checkInBox]"
+}
+[1627568092.615][INFO]: Waiting for pending navigations...
+[1627568092.616][INFO]: Done waiting for pending navigations. Status: ok
+[1627568092.620][INFO]: Waiting for pending navigations...
+[1627568092.621][INFO]: Done waiting for pending navigations. Status: ok
+[1627568092.621][INFO]: [f277477eaad0241467e6f4b2398b71c5] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@data-selenium=checkInBox]"}
+  (Session info: chrome=92.0.4515.107)
+[1627568092.849][INFO]: [f277477eaad0241467e6f4b2398b71c5] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@data-selenium=checkInBox]"
+}
+[1627568092.849][INFO]: Waiting for pending navigations...
+[1627568092.850][INFO]: Done waiting for pending navigations. Status: ok
+[1627568092.854][INFO]: Waiting for pending navigations...
+[1627568092.855][INFO]: Done waiting for pending navigations. Status: ok
+[1627568092.855][INFO]: [f277477eaad0241467e6f4b2398b71c5] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@data-selenium=checkInBox]"}
+  (Session info: chrome=92.0.4515.107)
+[1627568093.083][INFO]: [f277477eaad0241467e6f4b2398b71c5] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@data-selenium=checkInBox]"
+}
+[1627568093.083][INFO]: Waiting for pending navigations...
+[1627568093.095][INFO]: Done waiting for pending navigations. Status: ok
+[1627568093.101][INFO]: Waiting for pending navigations...
+[1627568093.101][INFO]: Done waiting for pending navigations. Status: ok
+[1627568093.101][INFO]: [f277477eaad0241467e6f4b2398b71c5] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@data-selenium=checkInBox]"}
+  (Session info: chrome=92.0.4515.107)
+[1627568093.332][INFO]: [f277477eaad0241467e6f4b2398b71c5] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@data-selenium=checkInBox]"
+}
+[1627568093.332][INFO]: Waiting for pending navigations...
+[1627568093.366][INFO]: Done waiting for pending navigations. Status: ok
+[1627568093.371][INFO]: Waiting for pending navigations...
+[1627568093.371][INFO]: Done waiting for pending navigations. Status: ok
+[1627568093.371][INFO]: [f277477eaad0241467e6f4b2398b71c5] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@data-selenium=checkInBox]"}
+  (Session info: chrome=92.0.4515.107)
+[1627568093.593][INFO]: [f277477eaad0241467e6f4b2398b71c5] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@data-selenium=checkInBox]"
+}
+[1627568093.593][INFO]: Waiting for pending navigations...
+[1627568093.629][INFO]: Done waiting for pending navigations. Status: ok
+[1627568093.704][INFO]: Waiting for pending navigations...
+[1627568093.718][INFO]: Done waiting for pending navigations. Status: ok
+[1627568093.718][INFO]: [f277477eaad0241467e6f4b2398b71c5] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@data-selenium=checkInBox]"}
+  (Session info: chrome=92.0.4515.107)
+[1627568093.937][INFO]: [f277477eaad0241467e6f4b2398b71c5] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@data-selenium=checkInBox]"
+}
+[1627568093.940][INFO]: Waiting for pending navigations...
+[1627568093.941][INFO]: Done waiting for pending navigations. Status: ok
+[1627568093.946][INFO]: Waiting for pending navigations...
+[1627568093.947][INFO]: Done waiting for pending navigations. Status: ok
+[1627568093.947][INFO]: [f277477eaad0241467e6f4b2398b71c5] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@data-selenium=checkInBox]"}
+  (Session info: chrome=92.0.4515.107)
+[1627568094.169][INFO]: [f277477eaad0241467e6f4b2398b71c5] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@data-selenium=checkInBox]"
+}
+[1627568094.173][INFO]: Waiting for pending navigations...
+[1627568094.174][INFO]: Done waiting for pending navigations. Status: ok
+[1627568094.189][INFO]: Waiting for pending navigations...
+[1627568094.190][INFO]: Done waiting for pending navigations. Status: ok
+[1627568094.190][INFO]: [f277477eaad0241467e6f4b2398b71c5] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@data-selenium=checkInBox]"}
+  (Session info: chrome=92.0.4515.107)
+[1627568094.413][INFO]: [f277477eaad0241467e6f4b2398b71c5] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@data-selenium=checkInBox]"
+}
+[1627568094.456][INFO]: Waiting for pending navigations...
+[1627568094.457][INFO]: Done waiting for pending navigations. Status: ok
+[1627568094.462][INFO]: Waiting for pending navigations...
+[1627568094.462][INFO]: Done waiting for pending navigations. Status: ok
+[1627568094.462][INFO]: [f277477eaad0241467e6f4b2398b71c5] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@data-selenium=checkInBox]"}
+  (Session info: chrome=92.0.4515.107)
+[1627568094.694][INFO]: [f277477eaad0241467e6f4b2398b71c5] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@data-selenium=checkInBox]"
+}
+[1627568094.695][INFO]: Waiting for pending navigations...
+[1627568094.695][INFO]: Done waiting for pending navigations. Status: ok
+[1627568094.702][INFO]: Waiting for pending navigations...
+[1627568094.703][INFO]: Done waiting for pending navigations. Status: ok
+[1627568094.703][INFO]: [f277477eaad0241467e6f4b2398b71c5] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@data-selenium=checkInBox]"}
+  (Session info: chrome=92.0.4515.107)
+[1627568094.926][INFO]: [f277477eaad0241467e6f4b2398b71c5] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1627568094.926][INFO]: Waiting for pending navigations...
+[1627568094.976][INFO]: Done waiting for pending navigations. Status: ok
+[1627568095.017][INFO]: Waiting for pending navigations...
+[1627568095.195][INFO]: Done waiting for pending navigations. Status: ok
+[1627568095.195][INFO]: [f277477eaad0241467e6f4b2398b71c5] RESPONSE ExecuteScript "\u003Chtml lang=\"ru\" kite-lang=\"ru\" class=\"chrome no-js\" dir=\"ltr\">\u003Chead>\n    \u003Cmeta charset=\"utf-8\">\n        \u003Cmeta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    \n        \u003Cmeta nam..."
+[1627568095.270][INFO]: [f277477eaad0241467e6f4b2398b71c5] COMMAND Screenshot {
+
+}
+[1627568095.270][INFO]: Waiting for pending navigations...
+[1627568095.270][INFO]: Done waiting for pending navigations. Status: ok
+[1627568095.500][INFO]: Waiting for pending navigations...
+[1627568095.500][INFO]: Done waiting for pending navigations. Status: ok
+[1627568095.500][INFO]: [f277477eaad0241467e6f4b2398b71c5] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABUYAAAKnCAYAAABK/pfIAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3ftzFGe+5/l3le6la0my0AVEYQkJ3MiWQG13G/ccxsbTEzMwcWZ2dqbDsfsTjvOHzEb/ExMQ+9M6PDt7ZicW4uycY+zVOTa07QZEGwxISJYQ6IouiJKqSkKq2..."
+[1627568098.594][INFO]: [f277477eaad0241467e6f4b2398b71c5] COMMAND Quit {
+
+}
+[1627568098.623][INFO]: [f277477eaad0241467e6f4b2398b71c5] RESPONSE Quit

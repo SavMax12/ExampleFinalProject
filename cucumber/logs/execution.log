@@ -1,0 +1,75 @@
+2021-07-29 19:54:46,240 INFO [main] =============================================== 
+2021-07-29 19:54:46,243 INFO [main] =============================================== 
+2021-07-29 19:54:46,243 INFO [main] Start scenario 'check that the checkout page is shown after clicking the Buy button for any product' 
+2021-07-29 19:54:46,244 INFO [main] =============================================== 
+2021-07-29 19:54:46,244 INFO [main] =============================================== 
+2021-07-29 19:54:46,244 INFO [main] Open: https://dmitryklokov.bitbucket.io 
+2021-07-29 19:54:49,589 TRACE [main] [Button] Click - By.id: navbar-products-btn 
+2021-07-29 19:54:49,911 TRACE [main] Get model 0 
+2021-07-29 19:54:49,913 TRACE [main] [Button] Click - By.id: buy-btn 
+2021-07-29 19:54:50,624 INFO [main] Check that element First Name is visible 
+2021-07-29 19:54:50,625 TRACE [main] [Input] Is visible - By.id: first-name-input-id 
+2021-07-29 19:54:51,466 INFO [main] Check that element Last Name is visible 
+2021-07-29 19:54:51,466 TRACE [main] [Input] Is visible - By.id: last-name-input-id 
+2021-07-29 19:54:51,499 INFO [main] Check that element Country is visible 
+2021-07-29 19:54:51,499 TRACE [main] [Selector] Is visible - By.id: country-selector-id 
+2021-07-29 19:54:51,530 INFO [main] Check that element City is visible 
+2021-07-29 19:54:51,531 TRACE [main] [Selector] Is visible - By.id: city-selector-id 
+2021-07-29 19:54:51,561 INFO [main] Check that element Zip is visible 
+2021-07-29 19:54:51,561 TRACE [main] [Input] Is visible - By.id: zip-input-id 
+2021-07-29 19:54:51,591 INFO [main] Check that element Cash is visible 
+2021-07-29 19:54:51,592 TRACE [main] [Radio] Is visible - By.id: cash-lbl-id 
+2021-07-29 19:54:51,624 INFO [main] Check that element Credit Cart is visible 
+2021-07-29 19:54:51,624 TRACE [main] [Radio] Is visible - By.id: credit-lbl-id 
+2021-07-29 19:54:51,656 INFO [main] Check that element Continue is visible 
+2021-07-29 19:54:51,656 TRACE [main] [Button] Is visible - By.id: continue-btn-id 
+2021-07-29 19:54:51,724 INFO [main] =============================================== 
+2021-07-29 19:54:51,724 INFO [main] =============================================== 
+2021-07-29 19:54:51,724 INFO [main] Start scenario 'check that the success page is shown after successfull checkout' 
+2021-07-29 19:54:51,725 INFO [main] =============================================== 
+2021-07-29 19:54:51,725 INFO [main] =============================================== 
+2021-07-29 19:54:51,725 INFO [main] Open: https://dmitryklokov.bitbucket.io 
+2021-07-29 19:54:51,774 TRACE [main] [Button] Click - By.id: navbar-products-btn 
+2021-07-29 19:54:51,903 TRACE [main] Get model 2 
+2021-07-29 19:54:51,903 TRACE [main] [Button] Click - By.id: buy-btn 
+2021-07-29 19:54:52,021 INFO [main] Fill all required fields on the checkout page 
+2021-07-29 19:54:52,021 TRACE [main] [Input] Clear and typeDzmitry - By.id: first-name-input-id 
+2021-07-29 19:54:52,166 TRACE [main] [Input] Clear and typeKlokau - By.id: last-name-input-id 
+2021-07-29 19:54:52,283 TRACE [main] [Selector] SelectBelarus - By.id: country-selector-id 
+2021-07-29 19:54:52,341 TRACE [main] [Selector] SelectGrodno - By.id: city-selector-id 
+2021-07-29 19:54:52,415 TRACE [main] [Input] Clear and type230000 - By.id: zip-input-id 
+2021-07-29 19:54:52,527 TRACE [main] [Checkbox] Check - By.id: save-info-lbl-id 
+2021-07-29 19:54:52,616 TRACE [main] [Radio] Check - By.id: cash-lbl-id 
+2021-07-29 19:54:52,689 INFO [main] Press continue btn on the checkout page 
+2021-07-29 19:54:52,689 TRACE [main] [Button] Click - By.id: continue-btn-id 
+2021-07-29 19:54:53,086 TRACE [main] [Label] Is Displayed - By.id: success-title 
+2021-07-29 19:54:58,326 INFO [main] =============================================== 
+2021-07-29 19:54:58,326 INFO [main] =============================================== 
+2021-07-29 19:54:58,326 INFO [main] Start scenario 'check that the success page is shown after successfull checkout' 
+2021-07-29 19:54:58,326 INFO [main] =============================================== 
+2021-07-29 19:54:58,327 INFO [main] =============================================== 
+2021-07-29 19:54:58,327 INFO [main] Open: https://dmitryklokov.bitbucket.io 
+2021-07-29 19:54:58,502 TRACE [main] [Button] Click - By.id: navbar-products-btn 
+2021-07-29 19:54:58,631 TRACE [main] Get model 0 
+2021-07-29 19:54:58,632 TRACE [main] [Button] Click - By.id: buy-btn 
+2021-07-29 19:54:58,750 INFO [main] Fill all required fields on the checkout page 
+2021-07-29 19:54:58,750 TRACE [main] [Input] Clear and typeTestName - By.id: first-name-input-id 
+2021-07-29 19:54:58,869 TRACE [main] [Input] Clear and typeTestFirstName - By.id: last-name-input-id 
+2021-07-29 19:54:59,000 TRACE [main] [Selector] SelectBelarus - By.id: country-selector-id 
+2021-07-29 19:54:59,068 TRACE [main] [Selector] SelectGrodno - By.id: city-selector-id 
+2021-07-29 19:54:59,125 TRACE [main] [Input] Clear and type230000 - By.id: zip-input-id 
+2021-07-29 19:54:59,240 TRACE [main] [Checkbox] Check - By.id: save-info-lbl-id 
+2021-07-29 19:54:59,327 TRACE [main] [Radio] Check - By.id: cash-lbl-id 
+2021-07-29 19:54:59,419 INFO [main] Press continue btn on the checkout page 
+2021-07-29 19:54:59,419 TRACE [main] [Button] Click - By.id: continue-btn-id 
+2021-07-29 19:54:59,687 TRACE [main] [Label] Is Displayed - By.id: success-title 
+2021-07-29 19:55:04,932 INFO [main] =============================================== 
+2021-07-29 19:55:04,932 INFO [main] =============================================== 
+2021-07-29 19:55:04,932 INFO [main] Start scenario '' 
+2021-07-29 19:55:04,932 INFO [main] =============================================== 
+2021-07-29 19:55:04,932 INFO [main] =============================================== 
+2021-07-29 19:55:04,932 INFO [main] Open: https://dmitryklokov.bitbucket.io 
+2021-07-29 19:55:05,119 TRACE [main] [Button] Click - By.id: navbar-products-btn 
+2021-07-29 19:55:05,242 TRACE [main] Get model 1 
+2021-07-29 19:55:05,242 TRACE [main] [Button] Click - By.id: buy-btn 
+2021-07-29 19:55:05,365 ERROR [main] Scenario failed: Some validation failed 

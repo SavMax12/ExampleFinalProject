@@ -1,0 +1,348 @@
+[1627567128.555][INFO]: Starting ChromeDriver 92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}) on port 26194
+[1627567128.555][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1627567129.051][INFO]: [d58522f2f9f8194ab59d0aa70bd8882a] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\webinar\\webinar-folder\\final\\build\\downloads",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\webinar\\webinar-folder\\final\\build\\downloads",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1627567129.055][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\webinar\\webinar-folder\\final\\build\\downloads"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1627567129.056][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1627567129.057][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-service-autorun --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\yamax\AppData\Local\Temp\scoped_dir3924_1772101649" data:,
+[1627567129.632][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1627567129.634][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1627567129.638][INFO]: [d58522f2f9f8194ab59d0aa70bd8882a] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "92.0.4515.107",
+      "chrome": {
+         "chromedriverVersion": "92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306})",
+         "userDataDir": "C:\\Users\\yamax\\AppData\\Local\\Temp\\scoped_dir3924_1772101649"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:50325"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "d58522f2f9f8194ab59d0aa70bd8882a"
+}
+[1627567129.656][INFO]: [d58522f2f9f8194ab59d0aa70bd8882a] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1627567129.656][INFO]: Waiting for pending navigations...
+[1627567129.657][INFO]: Done waiting for pending navigations. Status: ok
+[1627567129.764][INFO]: Waiting for pending navigations...
+[1627567129.764][INFO]: Done waiting for pending navigations. Status: ok
+[1627567129.764][INFO]: [d58522f2f9f8194ab59d0aa70bd8882a] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 10,
+   "y": 10
+}
+[1627567129.779][INFO]: [d58522f2f9f8194ab59d0aa70bd8882a] COMMAND Navigate {
+   "url": "https://www.agoda.com/account/signin.html?option=signup&ottoken=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIn0.cicfnJvJqFJZjLW0BEr0m3cUDXcpwdSrO8v1peR4mgCpV6KVZWr41QVR_zjzeUMPRPz5bASMkhmSOW_vwPRbSPpXo5g_vBYH.NWOr9laC3UKHjM9J5eqbtQ.H8OWWcikEpBRP1Tpy6OWVloxkvieJSEnbaZuP3V_gzO4LYT31S6Ghe8mjjIeNjEW.EmxUronTKTmSRSMAe2bjzuqX1VHw3bRghpCn9eYrBFM&returnurl=%2F"
+}
+[1627567129.779][INFO]: Waiting for pending navigations...
+[1627567129.779][INFO]: Done waiting for pending navigations. Status: ok
+[1627567130.171][INFO]: Waiting for pending navigations...
+[1627567131.721][INFO]: Done waiting for pending navigations. Status: ok
+[1627567131.721][INFO]: [d58522f2f9f8194ab59d0aa70bd8882a] RESPONSE Navigate
+[1627567131.794][INFO]: [d58522f2f9f8194ab59d0aa70bd8882a] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//button[@data-element-name=\"universal-login-signup-email-button\"]"
+}
+[1627567131.794][INFO]: Waiting for pending navigations...
+[1627567131.795][INFO]: Done waiting for pending navigations. Status: ok
+[1627567131.804][INFO]: Waiting for pending navigations...
+[1627567131.804][INFO]: Done waiting for pending navigations. Status: ok
+[1627567131.804][INFO]: [d58522f2f9f8194ab59d0aa70bd8882a] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//button[@data-element-name="universal-login-signup-email-button"]"}
+  (Session info: chrome=92.0.4515.107)
+[1627567132.039][INFO]: [d58522f2f9f8194ab59d0aa70bd8882a] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//button[@data-element-name=\"universal-login-signup-email-button\"]"
+}
+[1627567132.119][INFO]: Waiting for pending navigations...
+[1627567132.190][INFO]: Done waiting for pending navigations. Status: ok
+[1627567132.229][INFO]: Waiting for pending navigations...
+[1627567132.232][INFO]: Done waiting for pending navigations. Status: ok
+[1627567132.232][INFO]: [d58522f2f9f8194ab59d0aa70bd8882a] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//button[@data-element-name="universal-login-signup-email-button"]"}
+  (Session info: chrome=92.0.4515.107)
+[1627567132.467][INFO]: [d58522f2f9f8194ab59d0aa70bd8882a] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//button[@data-element-name=\"universal-login-signup-email-button\"]"
+}
+[1627567132.467][INFO]: Waiting for pending navigations...
+[1627567132.468][INFO]: Done waiting for pending navigations. Status: ok
+[1627567132.472][INFO]: Waiting for pending navigations...
+[1627567132.472][INFO]: Done waiting for pending navigations. Status: ok
+[1627567132.472][INFO]: [d58522f2f9f8194ab59d0aa70bd8882a] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//button[@data-element-name="universal-login-signup-email-button"]"}
+  (Session info: chrome=92.0.4515.107)
+[1627567132.701][INFO]: [d58522f2f9f8194ab59d0aa70bd8882a] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//button[@data-element-name=\"universal-login-signup-email-button\"]"
+}
+[1627567132.701][INFO]: Waiting for pending navigations...
+[1627567132.756][INFO]: Done waiting for pending navigations. Status: ok
+[1627567132.772][INFO]: Waiting for pending navigations...
+[1627567132.773][INFO]: Done waiting for pending navigations. Status: ok
+[1627567132.773][INFO]: [d58522f2f9f8194ab59d0aa70bd8882a] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//button[@data-element-name="universal-login-signup-email-button"]"}
+  (Session info: chrome=92.0.4515.107)
+[1627567132.993][INFO]: [d58522f2f9f8194ab59d0aa70bd8882a] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//button[@data-element-name=\"universal-login-signup-email-button\"]"
+}
+[1627567132.993][INFO]: Waiting for pending navigations...
+[1627567132.994][INFO]: Done waiting for pending navigations. Status: ok
+[1627567132.998][INFO]: Waiting for pending navigations...
+[1627567132.998][INFO]: Done waiting for pending navigations. Status: ok
+[1627567132.998][INFO]: [d58522f2f9f8194ab59d0aa70bd8882a] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//button[@data-element-name="universal-login-signup-email-button"]"}
+  (Session info: chrome=92.0.4515.107)
+[1627567133.225][INFO]: [d58522f2f9f8194ab59d0aa70bd8882a] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//button[@data-element-name=\"universal-login-signup-email-button\"]"
+}
+[1627567133.228][INFO]: Waiting for pending navigations...
+[1627567133.229][INFO]: Done waiting for pending navigations. Status: ok
+[1627567133.232][INFO]: Waiting for pending navigations...
+[1627567133.233][INFO]: Done waiting for pending navigations. Status: ok
+[1627567133.233][INFO]: [d58522f2f9f8194ab59d0aa70bd8882a] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//button[@data-element-name="universal-login-signup-email-button"]"}
+  (Session info: chrome=92.0.4515.107)
+[1627567133.457][INFO]: [d58522f2f9f8194ab59d0aa70bd8882a] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//button[@data-element-name=\"universal-login-signup-email-button\"]"
+}
+[1627567133.460][INFO]: Waiting for pending navigations...
+[1627567133.477][INFO]: Done waiting for pending navigations. Status: ok
+[1627567133.488][INFO]: Waiting for pending navigations...
+[1627567133.489][INFO]: Done waiting for pending navigations. Status: ok
+[1627567133.489][INFO]: [d58522f2f9f8194ab59d0aa70bd8882a] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//button[@data-element-name="universal-login-signup-email-button"]"}
+  (Session info: chrome=92.0.4515.107)
+[1627567133.718][INFO]: [d58522f2f9f8194ab59d0aa70bd8882a] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//button[@data-element-name=\"universal-login-signup-email-button\"]"
+}
+[1627567133.720][INFO]: Waiting for pending navigations...
+[1627567133.721][INFO]: Done waiting for pending navigations. Status: ok
+[1627567133.727][INFO]: Waiting for pending navigations...
+[1627567133.727][INFO]: Done waiting for pending navigations. Status: ok
+[1627567133.727][INFO]: [d58522f2f9f8194ab59d0aa70bd8882a] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//button[@data-element-name="universal-login-signup-email-button"]"}
+  (Session info: chrome=92.0.4515.107)
+[1627567133.952][INFO]: [d58522f2f9f8194ab59d0aa70bd8882a] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//button[@data-element-name=\"universal-login-signup-email-button\"]"
+}
+[1627567133.952][INFO]: Waiting for pending navigations...
+[1627567133.953][INFO]: Done waiting for pending navigations. Status: ok
+[1627567133.956][INFO]: Waiting for pending navigations...
+[1627567133.957][INFO]: Done waiting for pending navigations. Status: ok
+[1627567133.957][INFO]: [d58522f2f9f8194ab59d0aa70bd8882a] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//button[@data-element-name="universal-login-signup-email-button"]"}
+  (Session info: chrome=92.0.4515.107)
+[1627567134.187][INFO]: [d58522f2f9f8194ab59d0aa70bd8882a] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//button[@data-element-name=\"universal-login-signup-email-button\"]"
+}
+[1627567134.187][INFO]: Waiting for pending navigations...
+[1627567134.187][INFO]: Done waiting for pending navigations. Status: ok
+[1627567134.191][INFO]: Waiting for pending navigations...
+[1627567134.193][INFO]: Done waiting for pending navigations. Status: ok
+[1627567134.193][INFO]: [d58522f2f9f8194ab59d0aa70bd8882a] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//button[@data-element-name="universal-login-signup-email-button"]"}
+  (Session info: chrome=92.0.4515.107)
+[1627567134.423][INFO]: [d58522f2f9f8194ab59d0aa70bd8882a] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//button[@data-element-name=\"universal-login-signup-email-button\"]"
+}
+[1627567134.423][INFO]: Waiting for pending navigations...
+[1627567134.424][INFO]: Done waiting for pending navigations. Status: ok
+[1627567134.429][INFO]: Waiting for pending navigations...
+[1627567134.429][INFO]: Done waiting for pending navigations. Status: ok
+[1627567134.429][INFO]: [d58522f2f9f8194ab59d0aa70bd8882a] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//button[@data-element-name="universal-login-signup-email-button"]"}
+  (Session info: chrome=92.0.4515.107)
+[1627567134.654][INFO]: [d58522f2f9f8194ab59d0aa70bd8882a] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//button[@data-element-name=\"universal-login-signup-email-button\"]"
+}
+[1627567134.654][INFO]: Waiting for pending navigations...
+[1627567134.654][INFO]: Done waiting for pending navigations. Status: ok
+[1627567134.660][INFO]: Waiting for pending navigations...
+[1627567134.661][INFO]: Done waiting for pending navigations. Status: ok
+[1627567134.661][INFO]: [d58522f2f9f8194ab59d0aa70bd8882a] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//button[@data-element-name="universal-login-signup-email-button"]"}
+  (Session info: chrome=92.0.4515.107)
+[1627567134.890][INFO]: [d58522f2f9f8194ab59d0aa70bd8882a] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//button[@data-element-name=\"universal-login-signup-email-button\"]"
+}
+[1627567134.890][INFO]: Waiting for pending navigations...
+[1627567134.891][INFO]: Done waiting for pending navigations. Status: ok
+[1627567134.895][INFO]: Waiting for pending navigations...
+[1627567134.896][INFO]: Done waiting for pending navigations. Status: ok
+[1627567134.896][INFO]: [d58522f2f9f8194ab59d0aa70bd8882a] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//button[@data-element-name="universal-login-signup-email-button"]"}
+  (Session info: chrome=92.0.4515.107)
+[1627567135.122][INFO]: [d58522f2f9f8194ab59d0aa70bd8882a] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//button[@data-element-name=\"universal-login-signup-email-button\"]"
+}
+[1627567135.122][INFO]: Waiting for pending navigations...
+[1627567135.123][INFO]: Done waiting for pending navigations. Status: ok
+[1627567135.129][INFO]: Waiting for pending navigations...
+[1627567135.129][INFO]: Done waiting for pending navigations. Status: ok
+[1627567135.129][INFO]: [d58522f2f9f8194ab59d0aa70bd8882a] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//button[@data-element-name="universal-login-signup-email-button"]"}
+  (Session info: chrome=92.0.4515.107)
+[1627567135.352][INFO]: [d58522f2f9f8194ab59d0aa70bd8882a] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//button[@data-element-name=\"universal-login-signup-email-button\"]"
+}
+[1627567135.352][INFO]: Waiting for pending navigations...
+[1627567135.352][INFO]: Done waiting for pending navigations. Status: ok
+[1627567135.356][INFO]: Waiting for pending navigations...
+[1627567135.357][INFO]: Done waiting for pending navigations. Status: ok
+[1627567135.357][INFO]: [d58522f2f9f8194ab59d0aa70bd8882a] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//button[@data-element-name="universal-login-signup-email-button"]"}
+  (Session info: chrome=92.0.4515.107)
+[1627567135.585][INFO]: [d58522f2f9f8194ab59d0aa70bd8882a] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//button[@data-element-name=\"universal-login-signup-email-button\"]"
+}
+[1627567135.586][INFO]: Waiting for pending navigations...
+[1627567135.586][INFO]: Done waiting for pending navigations. Status: ok
+[1627567135.590][INFO]: Waiting for pending navigations...
+[1627567135.590][INFO]: Done waiting for pending navigations. Status: ok
+[1627567135.590][INFO]: [d58522f2f9f8194ab59d0aa70bd8882a] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//button[@data-element-name="universal-login-signup-email-button"]"}
+  (Session info: chrome=92.0.4515.107)
+[1627567135.836][INFO]: [d58522f2f9f8194ab59d0aa70bd8882a] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1627567135.836][INFO]: Waiting for pending navigations...
+[1627567135.865][INFO]: Done waiting for pending navigations. Status: ok
+[1627567136.103][INFO]: Waiting for pending navigations...
+[1627567136.118][INFO]: Done waiting for pending navigations. Status: ok
+[1627567136.118][INFO]: [d58522f2f9f8194ab59d0aa70bd8882a] RESPONSE ExecuteScript "\u003Chtml lang=\"ru\" class=\"chrome no-js\" dir=\"ltr\">\u003C!-- rendered at UTC: Thursday, July 29, 2021 1:58 PM -->\u003C!--\u003C![endif]-->\u003Chead prefix=\"og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#  place: http://o..."
+[1627567136.223][INFO]: [d58522f2f9f8194ab59d0aa70bd8882a] COMMAND Screenshot {
+
+}
+[1627567136.223][INFO]: Waiting for pending navigations...
+[1627567136.227][INFO]: Done waiting for pending navigations. Status: ok
+[1627567136.315][INFO]: Waiting for pending navigations...
+[1627567136.316][INFO]: Done waiting for pending navigations. Status: ok
+[1627567136.316][INFO]: [d58522f2f9f8194ab59d0aa70bd8882a] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABUYAAAKnCAYAAABK/pfIAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3XtwW3ed///XkS3Jki07tuzEieNbEieBJk1IurQhaX+dpUCYthQK7c7SbReGQgIDM7B8S6HdLjD5tkMvu6XQTcnQ0i8woVCg8KVf2HIplDYmQJsmISmN4zZx7..."
+[1627567140.988][INFO]: [d58522f2f9f8194ab59d0aa70bd8882a] COMMAND Quit {
+
+}
+[1627567141.033][INFO]: [d58522f2f9f8194ab59d0aa70bd8882a] RESPONSE Quit
